@@ -22,7 +22,7 @@
                 width: 25%;
             }
             #content {
-                width: 75%;
+                width: 65%;
                 box-sizing: border-box;
                 min-width: 200px;
                 max-width: 1280px;
@@ -171,6 +171,7 @@
                                 <li><a href="../../index.html">Home</a><span></span></li>
                                 <li><a href="#" class="active">Documentation</a><span></span></li>
                                 <li><a href="./gallery.html">Gallery</a><span></span></li>
+                                <li><a href="https://github.com/narchart/NarrativeChart">Github</a ><span></span></li>
                                 <li><a href="./about.html">About</a><span></span></li>
                                 <!-- <li><a href="#">En</a><span></span></li> -->
                             </ul>
@@ -196,7 +197,7 @@
                 document.getElementById('content').innerHTML = marked(xhr.responseText)
                 // 将h1删掉
                 var content = document.getElementById('content')
-                var nodeh1 = document.getElementById('narrative-charts')
+                var nodeh1 = document.getElementById('narrative-chart')
                 content.removeChild(nodeh1)
                 // 把content装到大div里面
                 var largeDiv = document.createElement("div")
@@ -216,6 +217,15 @@
                     var hr = document.createElement("hr")
                     insertAfter(hr,h2s[i])
                 }
+                var footer = document.createElement("div")
+                footer.setAttribute('class','footer-bottom-area')
+                var copyright = document.createElement("div")
+                copyright.setAttribute('class','copy-right-text')
+                var copyrighttext = document.createElement("p")
+                copyrighttext.innerHTML = 'Copyright © 2022 Intelligent Big Data Visualization Lab All Rights Reserved'
+                copyright.appendChild(copyrighttext)
+                footer.appendChild(copyright)
+                body.appendChild(footer)
             }
           </script>
         <script src="../assets/js/jquery.js"></script>

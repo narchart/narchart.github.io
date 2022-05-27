@@ -15,8 +15,8 @@
 //     list = document.getElementById('list');
 // list.appendChild(js);
 
-    $('.galary-button button').click(function(e){
-        let getValue = e.target.value
+    $('.imageContainer img').click(function(e){
+        let getValue = e.target.getAttribute("src")
         let result = getValue.replace(/[^0-9]/ig,"")
         let data = [
             {
@@ -7681,7 +7681,7 @@
         // 加密结果：N4IglgJiBcCMA0IB2BDAtgUxiQUqp5IgDZgDOALjANqiqbYogC+8N6W0IARky8m9gGMmAXUZA===
         // 数据解密
         // let decompressResult = JSON.parse(LZString.decompressFromBase64(compressResult));
-        console.log(compressResult);
+        // console.log(compressResult);
         // e.clipboardData.setData("Text",compressResult)
         // alert("复制成功!")
         window.open("https://narchart.github.io/editor/#/url/"+compressResult )
