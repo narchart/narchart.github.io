@@ -1,8 +1,155 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="narrative chart" content="narrative chart presentation" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../src/assets/plugins/bootstrap/css/bootstrap.min.css">    -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Play" rel="stylesheet">
+    <link href="./public/main.css" rel="stylesheet" >
+    <title>Narrative Chart</title>
+</head>
+<body style="height: 100%;">
+    <!-- HEADER -->
+    <header>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1-4">
+                        <h1 class="logo"><a href="./index.html">Narrative Chart</a>
+                            <img src="./public/logo.png" alt="">
+                        </h1>
+                    </div>
+                    <div class="col-3-4">
+                        <ul id="menu" class="main-menu">
+                            <li><a href="#" class="active">Home</a><span></span></li>
+                            <li><a href="./src/pages/documentation.html">Documentation</a><span></span></li>
+                            <li><a href="./src/pages/gallery.html">Gallery</a><span></span></li>
+                            <li><a href="./src/pages/about.html">About</a><span></span></li>
+                            <!-- <li><a href="#">En</a><span></span></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- CHARTS IMG -->
+        <div class="chartsOverview-img">
+            <img src="./src/assets/images/home/banner.png" alt="chartsOverview-img" class="chartsOverview">
+        </div>
+    </header>
+    <!-- CHARTS DESCRIPTION -->
+    <div class="charts-description">     
+        <div class="charts-slogan">
+            <div class="container">
+                <p>
+                    <span class="description-bold">Narrative Chart —— </span>
+                    <span class="description-light">Let your charts tell stories with a few lines!</span>
+                </p>
+            </div>
+        </div>
+        <div class="charts-details">
+            <div class="container-homepage">
+                <div class="charts-details-text">
+                    <p>
+                        <span class="description-bold-small">Narrative Chart</span>
+                        <span class="description-light-small"> is an open-source visualization library specialized for authoring charts that facilitete data storytelling with a high-level action-driven grammar. The library is implemented in JavaScript and compatible with most modern web browsers. </span>
+                        <!-- <span class="description-light-small"> is an open-source visualization library for authoring narrative </span>
+                        <span class="description-light-small">visualization and data storytelling with a high-level domain-specific language (DSL). The </span>
+                        <span class="description-light-small">library is implemented in JavaScript and compatible with most modern web browsers. </span> -->
+                    </p>
+                </div>
+                <div class="charts-details-btn">
+                    <a href="https://narchart.github.io/editor" class="btn btn1">Get Started</a>
+                    <a href="./src/pages/gallery.html" class="btn btn2">Examples</a>
+                </div>
+                <div class="clearDiv"></div>
+            </div>
+        </div>
+    </div>
+    <!-- CHARTS DIFFERENCES -->
+    <div class="charts-differences">
+        <div class="container">
+            <span class="description-bold">Highlights</span>
+            <hr></hr>
+            <span class="description-middle">Action-Driven Grammar:</span>
+            <p><span class="description-light-small">Narrative Charts use a novel action-driven grammar with a json format. Users can specify a chart design with a sequence of actions and Narrative Charts would parse the actions and execute them one by one. The grammar is intuitive and simple to use as it is close to real actions of designers, such as adding a title or modifying the chart on the canvas. </span></p>
+            <span class="description-middle">Storytelling Features:</span>
+        </div>
+        
+    </div>
 
-<h1>Hello World!</h1>
+    <!-- CHARTS FEATURES -->
+    <div class="charts-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="chart-feature-grid">
+                        <div class="feature-img"><img src="./src/assets/images/home/chart.png" alt=""></div> 
+                        <div class="feature-text">
+                            <p class="description-bold-small">Common chart types</p>
+                            <p class="description-light-small feature">Narrative Charts support the creation of the charts frequently used in data storytelling, such as bar charts, line charts, pie charts, and unit visualization. We identified these commonly-used charts by coding thousands of narrative charts in the wild.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2-2">
+                    <div class="chart-feature-grid">
+                        <div class="feature-img"><img src="./src/assets/images/home/annotation.png" alt=""></div> 
+                        <div class="feature-text">
+                            <p class="description-bold-small">Annotation</p>
+                            <p class="description-light-small feature">Narrative Charts support 13 common annotating methods that aid the communication of data insights, such as highlighting a mark and adding a circle, symbol, and texture.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="chart-feature-grid">
+                        <div class="feature-img"><img src="./src/assets/images/home/title.png" alt=""></div> 
+                        <div class="feature-text">
+                            <p class="description-bold-small">Title & caption</p>
+                            <p class="description-light-small feature">Narrative Charts support the design of titles and captions, two elements that are prevalent in narrative visualization. Users can custominze the positions and styles (e.g., font-size, font-weight, border, background) of these two components.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2-2">
+                    <div class="chart-feature-grid">
+                        <div class="feature-img"><img src="./src/assets/images/home/animation.png" alt=""></div> 
+                        <div class="feature-text">
+                            <p class="description-bold-small">Animation</p>
+                            <p class="description-light-small feature">Narrative Charts support the animation of all the visual components (e.g., title, caption, chart, annotation) to enhance user engagement with data and support the trannsition in data narratives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <div class="chart-feature-grid">
+                        <div class="feature-img"><img src="./src/assets/images/home/emotion.png" alt=""></div> 
+                        <div class="feature-text">
+                            <p class="description-bold-small">Emotional palette</p>
+                            <p class="description-light-small feature">Narrative Charts incorperate the emotional color palette from prior research and support 9 different color themes (e.g., playfulness, negativity, and trustworthiness) to help create an emotional storytelling atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2-2">
+                    <div class="chart-feature-grid">
+                        <div class="feature-img"><img src="./src/assets/images/home/embellishment.png" alt=""></div> 
+                        <div class="feature-text">
+                            <p class="description-bold-small">Embellishment</p>
+                            <p class="description-light-small feature">Narrative Charts support the creation of rich types of embellished charts (e.g., ISOTYPE charts, juxtaposing an image beside the chart) to increase user engagement and provide contextual information for data communication.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./src/assets/js/jquery.js"></script>
+<script src="./src/assets/js/jquery.slicknav.js"></script>
+<script src="./src/assets/js/main.js"></script>
 
 </body>
 </html>

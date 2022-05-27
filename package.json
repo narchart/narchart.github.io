@@ -1,0 +1,16 @@
+{
+  "name": "narrativecharts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Menndy/narrativecharts.git",
+  "author": "Menndy <362924112@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "lz-string": "^1.4.4"
+  },
+  "scripts":{
+    "start": "public/index.html"
+  }
+  
+}

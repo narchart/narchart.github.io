@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="narrative chart" content="narrative chart presentation" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="../src/assets/plugins/bootstrap/css/bootstrap.min.css">    -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Play" rel="stylesheet">
+        <link href="../../public/main.css" rel="stylesheet" >
+        <title>Narrative Chart</title>
+        <script src="marked.min.js"></script>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+        
+        <style>
+            #largediv{
+                display: flex;
+                align-items: baseline;
+                padding: 0px 130px;
+            }
+            #guide{
+                width: 25%;
+            }
+            #content {
+                width: 75%;
+                box-sizing: border-box;
+                min-width: 200px;
+                max-width: 1280px;
+                margin: 0 auto;
+                padding: 45px;
+                font-family: ArialMT;
+                line-height: 25px;
+            }
+            
+            #guide > ul > li > a{
+                line-height: 35px;
+                text-decoration: none;
+                font-family: Arial-BoldMT;
+                font-size: 16px;
+                color: #616670;
+                font-weight: 800;
+            }
+            #guide > ul > li{
+                list-style-type: none
+            }
+            #guide > ul > li > ul > li > a{
+                line-height: 35px;
+                text-decoration: none;
+                font-family: Arial-BoldMT;
+                font-size: 14px;
+                color: #616670;
+                font-weight: 700;
+            }
+            #guide > ul > li > ul > li{
+                list-style-type: none
+            }
+            #guide > ul > li > ul > li > ul > li > a{
+                font-family: ArialMT;
+                font-size: 12px;
+                color: #616670;
+                font-weight: 400;
+                line-height: 35px;
+                text-decoration: none;
+            }
+            #guide > ul > li > ul > li > ul > li{
+                list-style-type: none
+            }
+            #guide > ul > li > ul > li > ul > li > ul > li > a{
+                font-family: ArialMT;
+                font-size: 12px;
+                color: #616670;
+                font-weight: 400;
+                line-height: 35px;
+                text-decoration: none;
+            }
+            #guide > ul > li > ul > li > ul > li > ul > li{
+                list-style-type: none
+            }
+            #guide > ul > li > ul > li > ul > li > ul > li > ul > li > a{
+                font-family: ArialMT;
+                font-size: 12px;
+                color: #616670;
+                font-weight: 400;
+                line-height: 35px;
+                text-decoration: none;
+            }
+            #guide > ul > li > ul > li > ul > li > ul > li > ul > li {
+                list-style-type: none
+            }
+            #content > table {
+                border-collapse:collapse;
+            }
+            #content > table,th,td {
+                border: 1px solid #D0D7DE;
+            }
+            #content > table > tbody > tr > td{
+                padding:15px;
+            }
+            #content > table > thead > tr > th{
+                padding:10px;
+            }
+            #content > pre{
+                background-color: #F6F8FA ;
+                line-height: 25px;
+                font-family: SFMono-Regular;
+                font-size: 16px;
+                color: #000000;
+                font-weight: 400;
+            }
+            #content > h2{
+                font-family: Arial-BoldMT;
+                font-size: 32px;
+                color: #000000;
+                font-weight: 700;
+                margin-top: 50px;
+            }
+            #content > h3{
+                font-family: Arial-BoldMT;
+                font-size: 18px;
+                color: #000000;
+                font-weight: 700;
+            }
+            #content > h4{
+                font-family: ArialMT;
+                font-size: 16px;
+                color: #000000;
+                font-weight: 400;
+            }
+            #content > p{
+                font-family: ArialMT;
+                font-size: 16px;
+                color: #000000;
+                font-weight: 400;
+            }
+            #content > p > a{
+                font-family: ArialMT;
+                font-size: 16px;
+                color: #000000;
+                font-weight: 400;
+            }
+            
+    
+            @media (max-width: 1270px) {
+                #largediv {
+                    padding: 0;
+                }
+            }
+            @media (max-width:990px){
+                #guide{
+                    display: none;
+                }
+                #content{
+                    width: 100%;
+                }
+            }
+        </style>
+      </head>
+      <body>
+        <!-- HEADER -->
+        <header>
+            <nav class="main-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1-4">
+                            <h1 class="logo"><a href="../../index.html">Narrative Chart</a>
+                                <img src="../../public/logo.png" alt="">
+                            </h1>
+                        </div>
+                        <div class="col-3-4">
+                            <ul id="menu" class="main-menu">
+                                <li><a href="../../index.html">Home</a><span></span></li>
+                                <li><a href="#" class="active">Documentation</a><span></span></li>
+                                <li><a href="./gallery.html">Gallery</a><span></span></li>
+                                <li><a href="./about.html">About</a><span></span></li>
+                                <!-- <li><a href="#">En</a><span></span></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="content"></div>
+        <script>
+            function insertAfter(newElement,targetElement){
+                var parent = targetElement.parentNode;
+                if(parent.lastChild == targetElement){
+                    parent.appendChild(newElement);
+                }else{
+                    parent.insertBefore(newElement,targetElement.nextSibling);
+                }
+            }
+            xhr = new XMLHttpRequest();
+            xhr.open('get', 'README.md');
+            xhr.send('')
+            xhr.onload = function(){
+                document.getElementById('content').innerHTML = marked(xhr.responseText)
+                // 将h1删掉
+                var content = document.getElementById('content')
+                var nodeh1 = document.getElementById('narrative-charts')
+                content.removeChild(nodeh1)
+                // 把content装到大div里面
+                var largeDiv = document.createElement("div")
+                largeDiv.setAttribute('id','largediv')
+                largeDiv.appendChild(content)
+                var body = document.getElementsByTagName("body")[0]
+                body.appendChild(largeDiv)
+                // 把导航栏提出来
+                var leftDiv = document.createElement("div")
+                leftDiv.setAttribute('id','guide')
+                var leftUl = document.getElementsByTagName("ul")[1]
+                leftDiv.appendChild(leftUl)
+                largeDiv.insertBefore(leftDiv,content)
+                // 给h2后面添加横线hr
+                var h2s = document.getElementsByTagName("h2")
+                for(var i =0 ; i<h2s.length;i++){
+                    var hr = document.createElement("hr")
+                    insertAfter(hr,h2s[i])
+                }
+            }
+          </script>
+        <script src="../assets/js/jquery.js"></script>
+        <script src="../assets/js/jquery.slicknav.js"></script>
+        <script src="../assets/js/main.js"></script>
+      </body>
+</html>
