@@ -390,6 +390,27 @@ input[type=button] {
         padding-right: 15px;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column;
+    }
+    .charts-details .charts-details-btn .btn1 {
+        margin-top: 26px !important;
+    }
+
+    .charts-details .charts-details-btn{
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .charts-details .charts-details-text{
+        width: 100% !important;
+    }
+
+    .charts-details .charts-details-btn .btn{
+        width: 165px !important;
+    }
+    .btn2{
+        margin-left: 10px !important;
     }
 }
 
@@ -545,7 +566,7 @@ img {
 
 .main-nav .main-menu li {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 40px;
     position: relative;
 }
 
