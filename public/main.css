@@ -2437,7 +2437,7 @@ ul.slicknav_nav li a:hover {
 
 /* GALLERY PAGE */
 .charts-gallery{
-    margin: 20px 0;
+    margin: 5px 0;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: center; */
