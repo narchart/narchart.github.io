@@ -3,17 +3,17 @@
 - [Narrative Chart](#narrative-chart)
   - [Introduction](#introduction)
     - [What is Narrative Chart?](#what-is-narrative-chart)
-    - [Differences from other visualization libraries?](#differences-from-other-visualization-libraries)
-    - [Features](#features)
+    - [Differences from other visualization libraries](#differences-from-other-visualization-libraries)
   - [Getting Started](#getting-started)
     - [Installation](#installation)
-    - [Import narrative-chart](#import-narrative-chart)
+    - [Import Narrative Chart](#import-narrative-chart)
     - [Usage](#usage)
   - [Visualization Specification](#visualization-specification)
     - [Properties for data](#properties-for-data)
       - [1. Data from URL](#1-data-from-url)
       - [2. Inline Data](#2-inline-data)
     - [Action List](#action-list)
+      - [0. Configuation](#0-configuation)
       - [1. Data Preprocessing](#1-data-preprocessing)
       - [2. Visualization](#2-visualization)
         - [Add Marks](#add-marks)
@@ -36,6 +36,8 @@
       - [4. Title & Caption](#4-title--caption)
         - [Title](#title)
         - [Caption](#caption)
+      - [5. Image](#5-image)
+      - [6. Group](#6-group)
     - [Animations](#animations)
     - [Examples](#examples)
       - [1. Without Animations](#1-without-animations)
@@ -51,19 +53,9 @@
 
 **Narrative Chart** is an open-source visualization library for authoring narrative visualization and data storytelling with a high-level domain-specific language (DSL). The library is implemented in JavaScript and compatible with most modern web browsers.
 
-### Differences from other visualization libraries?
+### Differences from other visualization libraries
 
-There are several mature visualization libraries for the web, such as D3.js, Vega, and ECharts. Users can easily author interactive visualizations for data presentation or data analysis. However, these libraries are all developed for general purposes. Using these tools, users still need to write a hundred lines of code to generate a narrative visualization with expressive annotations, animations, and captions. **Narrative Chart** can make this easier.
-
-### Features
-
-1. Data processing
-2. Data facts
-3. Statistical charts & Unit visualization
-4. Visual encoding
-5. Annotation
-6. Animation
-7. Title & Caption
+There are several visualization libraries for the web, such as *D3.js*, *Vega*, and *ECharts*. However, these libraries are all developed for general purposes. Using these tools, users still need to write a hundred lines of code to generate a narrative visualization with expressive annotations, animations, embellishments, and captions. **Narrative Chart** can simplify this process by providing a high-level action-driven grammar that enables rapid specification of narrative visualizations.
 
 ## Getting Started
 
@@ -72,19 +64,19 @@ There are several mature visualization libraries for the web, such as D3.js, Veg
 Use npm/yarn to install the libraries
 
 ```
-npm install narrative-chart
+npm install narchart
 ```
 
 or
 
 ```
-yarn add narrative-chart
+yarn add narchart
 ```
 
-### Import narrative-chart
+### Import Narrative Chart
 
 ```
-import {NarrativeChart} from "narrative-chart";
+import {NarrativeChart} from "narchart";
 ```
 
 ### Usage
@@ -106,8 +98,7 @@ var yourSpec = {...}
 ```
 const vis = new NarrativeChart();
 vis.container('#vis');
-vis.load(yourSpec);
-vis.generate();
+vis.generate(yourSpec);
 ```
 
 ## Visualization Specification
@@ -145,7 +136,24 @@ vis.generate();
 
 ### Action List
 
+#### 0. Configuation
+
+Initializing the basic configuration of the chart.
+
+```
+{
+    "add": "config",
+	"mode": light/dark, // (default: light)
+	"emotion": none/calm/exciting/positive/negative/serious/playful/trustworthy/disturbing, // (default: none)
+    "background-image": image-url // (optional)
+    "width": 640, // (optional)
+    "height": 640 // (optional)
+}
+```
+
 #### 1. Data Preprocessing
+
+Operating a SQL-like action to query data from the spreadsheet.
 
 ```
 {
@@ -175,14 +183,36 @@ vis.generate();
 
 ##### Add Marks
 
+Add marks to initialize the chart.
+
+| Chart | Mark | Mark Style |
+|:--|:--|:--|
+| Scatterplot | point | stroke; stroke-width; stroke-opacity; fill; fill-opacity; background-image;|
+| Bar Chart | bar | stroke; stroke-width; stroke-opacity; fill; fill-opacity; corner-radius; bin-spacing; background-image;|
+| Line Chart | line | stroke; stroke-width; point; point-radius; point-fill; point-stroke; point-stroke-width; background-image; |
+| Pie Chart | arc | inner-radius; outer-radius; text-radius; corner-radius; stroke; stroke-width; stroke-opacity; fill; fill-opacity; background-image; |
+| Unitvis | unit | stroke; stroke-width; stroke-opacity; fill; fill-opacity; background-image; |
+
 ```
 {
     "add": "chart",
-    "mark": point/line/bar/unit
+    "mark": {
+        "type": point/line/bar/unit/arc,
+        "style": { ... }, // (optional)
+        "animation": { "type": type }, // (optional)
+    } 
+    "style": {
+        "background-image": image-url, // (optional)
+        "background-color": color, // (optional)
+        "mask-image": image-url, // (optional)
+    },
+    "animation": { ... }
 }
 ```
 
 ##### Encode Visual Channels
+
+Encoding channels to design the chart.
 
 | Chart | Channel | Field Type |
 |:--|:--|:--|
@@ -200,18 +230,17 @@ vis.generate();
 | Line Chart | x | temporal |
 | Line Chart | y | numerical |
 | Line Chart | color | categorical |
+| Pie Chart | theta | numerical |
+| Pie Chart | color | categorical |
 
 Add Encoding
 
 ```
 {
     "add": "encoding",
-    "channel": x/y/color/size,
+    "channel": x/y/color/size/theta,
     "field": field,
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -220,12 +249,9 @@ Modify Encoding
 ```
 {
     "modify": "encoding",
-    "channel": x/y/color/size,
+    "channel": x/y/color/size/theta,
     "field": field,
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -234,15 +260,14 @@ Remove Encoding
 ```
 {
     "remove": "encoding",
-    "channel": x/y/color/size,
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "channel": x/y/color/size/theta,
+    "animation": { "duration": number }
 }
 ```
 
 #### 3. Annotation
+
+Adding graphical and textural annotations.
 
 ```
 {
@@ -254,15 +279,33 @@ Remove Encoding
             "value": value
         }
     ],
+    "text": string,
     "style": {
         ...
     },
-    "animation": {
-      "delay": number,
-      "duration": number
+    "animation": { 
+        "type": fade/fly/wipe,
+        "duration": number 
     }
 }
 ```
+
+| Annotation | Style |
+|:--|:--|
+| Arrow | height; width; color |
+| Circle | color; width; height |
+| Contour | stroke-width; color |
+| Desaturate | \ |
+| Distribution | \ |
+| Fade | \ |
+| Fill | color |
+| Glow | color |
+| Label | font-size; font-family; font-color; font-weight; font-style |
+| Reference | stroke-width; color; stroke-dasharray; stroke-linecap |
+| Regression | stroke-width; color; stroke-dasharray; stroke-linecap |
+| Symbol | icon-url; width; height |
+| Texture | background-image; |
+| Tooltip | font-size; font-family; font-color; font-weight; font-style; tooltip-color |
 
 ##### Arrow
 
@@ -279,10 +322,7 @@ Remove Encoding
     "style": {
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -301,10 +341,7 @@ Remove Encoding
     "style": {
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -323,10 +360,7 @@ Remove Encoding
     "style": {
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -342,10 +376,7 @@ Remove Encoding
             "value": value
         }
     ],
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -361,10 +392,7 @@ Remove Encoding
             "value": value
         }
     ],
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -380,10 +408,7 @@ Remove Encoding
             "value": value
         }
     ],
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -402,10 +427,7 @@ Remove Encoding
     "style": {
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -424,10 +446,7 @@ Remove Encoding
     "style": {
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -443,15 +462,12 @@ Remove Encoding
             "value": value
         }
     ],
+    "text": text, // (optional)
     "style": {
-        "text": text,
         "font-size": font-size,
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -467,10 +483,7 @@ Remove Encoding
             "value": value
         }
     ],
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -489,10 +502,7 @@ Remove Encoding
     "style": {
         "color": color
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -511,10 +521,7 @@ Remove Encoding
     "style": {
         "icon-url": icon-url
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -533,10 +540,7 @@ Remove Encoding
     "style": {
         "background-image": background-image-url
     },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": { "duration": number }
 }
 ```
 
@@ -552,14 +556,16 @@ Remove Encoding
             "value": value
         }
     ],
+    "text": text, // (optional)
     "style": {
-        "text": text,
-        "font-size": font-size
-      },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+        "font-size": int, // (optional)
+        "font-family": string, // (optional)
+        "font-color": string, // (optional)
+        "font-weight": string, // (optional)
+        "font-style": string, // (optional)
+        "tooltip-color": string // (optional)
+    },
+    "animation": { "duration": number, "type": string}
 
     
 }
@@ -567,19 +573,31 @@ Remove Encoding
 
 #### 4. Title & Caption
 
+Adding title or caption.
+
 ##### Title
 
 ```
 {
     "add": "title",
+    "text": string,
     "style": {
-        "text": text,
-        "font-size": font-size
+        "font-size": int, // (optional)
+        "font-family": string, // (optional)
+        "font-color": string, // (optional)
+        "font-weight": string, // (optional)
+        "font-style": string, // (optional)
+        "position": string, // (optional)
+        "background-color": string, // (optional)
+        "background-image": image-url, // (optional)
+        "border-width": int, // (optional)
+        "border-color": string, // (optional)
+        "divide-line-width": int, // (optional)
+        "divide-line-color": string, // (optional)
+        "left-padding": int, // (optional)
+        "top-padding": int, // (optional)
       },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+    "animation": {"duration": int, "type": string} // (optional)
 
 }
 ```
@@ -589,22 +607,59 @@ Remove Encoding
 ```
 {
     "add": "caption",
+    "text": string,
     "style": {
-        "text": text,
-        "font-size": font-size
-      },
-    "animation": {
-      "delay": number,
-      "duration": number
-    }
+        "font-size": size, // (optional)
+        "font-family": string, // (optional)
+        "font-color": string, // (optional)
+        "font-weight": string, // (optional)
+        "font-style": string, // (optional)
+        "position": string, // (optional)
 
+    },
+    "animation": { "duration": number }
 }
 ```
 
+#### 5. Image
+
+Adding an image for embellishing the chart. (Note: you have to specify the image url and the position to place the image.)
+
+```
+{
+    "add": "image",
+    "style": {
+        "image": image-url,
+        "x": number,
+        "y": number,
+        "width": number,
+        "height": number
+    },
+    "animation": { "duration": number }
+}
+```
+
+#### 6. Group
+
+Adding a group of actions. 
+
+```
+{
+    "add": "group",
+    "actions": [
+        ...
+    ],
+    "animation": { 
+      "sync": bool (default: false)
+      "duration": int (default: 0)
+    }
+}
+```
+
+
 ### Animations
 
-
-Narrative Chart supports animated transitions between actions by specifying "duration" and "delay". "Duration" represents per-action duration in milliseconds. "Delay" represents per-action delay in milliseconds.
+Narrative Chart supports animated transitions between actions by specifying "duration", which represents per-action duration in milliseconds.
 
 
 
@@ -833,8 +888,7 @@ Narrative Chart supports animated transitions between actions by specifying "dur
             "field": "Year"
             },
             "animation": {
-                "duration": 1000,
-                "delay": 0
+                "duration": 1000
             }
         },
         {
@@ -845,8 +899,7 @@ Narrative Chart supports animated transitions between actions by specifying "dur
                 "value": "Japan"
               }],
             "animation": {
-                "duration": 1000,
-                "delay": 1000
+                "duration": 1000
             }
         },
         {
@@ -855,8 +908,7 @@ Narrative Chart supports animated transitions between actions by specifying "dur
             "field": "Horsepower"
             },
             "animation": {
-                "duration": 1000,
-                "delay": 2000
+                "duration": 1000
             }
         }
     ]
@@ -890,10 +942,12 @@ yarn start
 ### How to create a new chart? 
 
 1. Create a new folder named with the chart name (e.g., ``newchart``) in the directory ``src/vis/charts``.
-2. Create a class ``NewChart`` from a class called ``Chart`` in the folder.
-3. Implement 4 methods in the class, including ``visualize()``, ``addEncoding(channel, field, animation)``, ``modifyEncoding(channel, field, animation)``, and ``removeEncoding(channel, field, animation)``. They are the essential methods to build a chart.
-4. Export the class in ``src/vis/charts/index.js``.
-5. Import and setup the chart in ``src/vis/actions/addchart.js``.
+2. Create a class ``NewChart`` from a parent class called ``Chart`` in the folder.
+3. Create a class ``NewMark`` from a parent class called ``Mark`` in the folder.
+4. Record parameters of channels in the ``NewMark``, such as x, y, color, size.
+5. Implement 4 methods in the ``NewChart``, including ``visualize()``, ``addEncoding(channel, field, animation)``, ``modifyEncoding(channel, field, animation)``, and ``removeEncoding(channel, field, animation)``. They are the essential methods to build a chart.
+6. Export the class in ``src/vis/charts/index.js``.
+7. Import and setup the chart in ``src/vis/actions/addchart.js``.
 
 Please refer to ``src/vis/charts/scatterplot/index.js`` as an example. **Note**: To support annotations, you should make sure all marks in the chart SVG are set to "mark" class. For example in Scatterplot:
 

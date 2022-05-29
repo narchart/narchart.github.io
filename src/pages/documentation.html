@@ -9,9 +9,6 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Play" rel="stylesheet">
         <link href="../../public/main.css" rel="stylesheet" >
         <title>Narrative Chart</title>
-        <script src="../assets/js/jquery.js"></script>
-        <script src="../assets/js/jquery.slicknav.js"></script>
-        <script src="../assets/js/main.js"></script>
         <script src="marked.min.js"></script>
         <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
         <style>
@@ -43,6 +40,9 @@
                 color: #616670;
                 font-weight: 800;
             }
+            #guide > ul > li > a:hover{
+                color: #65a1c6;
+            }
             #guide > ul > li{
                 list-style-type: none
             }
@@ -56,6 +56,9 @@
                 font-size: 14px;
                 color: #616670;
                 font-weight: 700;
+            }
+            #guide > ul > li > ul > li > a:hover{
+                color: #65a1c6;
             }
             #guide > ul > li > ul > li{
                 list-style-type: disc
@@ -71,6 +74,9 @@
                 line-height: 35px;
                 text-decoration: none;
             }
+            #guide > ul > li > ul > li > ul > li > a:hover{
+                color: #65a1c6;
+            }
             #guide > ul > li > ul > li > ul > li{
                 list-style-type: none
             }
@@ -85,6 +91,9 @@
                 line-height: 35px;
                 text-decoration: none;
             }
+            #guide > ul > li > ul > li > ul > li > ul > li > a:hover{
+                color: #65a1c6;
+            }
             #guide > ul > li > ul > li > ul > li > ul > li{
                 list-style-type: none
             }
@@ -98,6 +107,9 @@
                 font-weight: 400;
                 line-height: 35px;
                 text-decoration: none;
+            }
+            #guide > ul > li > ul > li > ul > li > ul > li > ul > li > a:hover{
+                color: #65a1c6;
             }
             #guide > ul > li > ul > li > ul > li > ul > li > ul > li {
                 list-style-type: none
@@ -128,7 +140,7 @@
             }
             #content > h2{
                 font-family: Helvetica;
-                font-size: 32px;
+                font-size: 28px;
                 color: #000000;
                 font-weight: 700;
                 margin-top: 50px;
@@ -148,7 +160,7 @@
             #content > p{
                 font-family: Helvetica;
                 font-size: 16px;
-                color: #000000;
+                color: #373a3c;
                 font-weight: 400;
             }
             #content > p > a{
@@ -169,6 +181,7 @@
                 }
             }
         </style>
+        
       </head>
       <body>
         <!-- HEADER -->
@@ -243,5 +256,8 @@
                 body.appendChild(footer)
             }
           </script>
+        <script src="../assets/js/jquery.js"></script>
+        <script src="../assets/js/jquery.slicknav.js"></script>
+        <script src="../assets/js/main.js"></script>
       </body>
 </html>
