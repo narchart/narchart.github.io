@@ -9,33 +9,31 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Play" rel="stylesheet">
         <link href="../../public/main.css" rel="stylesheet" >
         <title>Narrative Chart</title>
-        <script src="marked.min.js"></script>
-        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
-        
         <style>
             #largediv{
                 display: flex;
                 align-items: baseline;
-                padding: 0px 130px;
+                max-width: 1024px;
+                margin: 0 auto;
             }
             #guide{
-                width: 25%;
+                width: 35%;
             }
             #content {
-                width: 65%;
+                width: 100%;
                 box-sizing: border-box;
                 min-width: 200px;
                 max-width: 1280px;
-                margin: 0 auto;
-                padding: 45px;
-                font-family: ArialMT;
+                /* margin: 0 auto; */
+                padding-left: 40px;
+                font-family: Helvetica;
                 line-height: 25px;
             }
             
             #guide > ul > li > a{
                 line-height: 35px;
                 text-decoration: none;
-                font-family: Arial-BoldMT;
+                font-family: Helvetica;
                 font-size: 16px;
                 color: #616670;
                 font-weight: 800;
@@ -43,19 +41,25 @@
             #guide > ul > li{
                 list-style-type: none
             }
+            #guide > ul {
+                padding-left: 0px;
+            }
             #guide > ul > li > ul > li > a{
                 line-height: 35px;
                 text-decoration: none;
-                font-family: Arial-BoldMT;
+                font-family: Helvetica;
                 font-size: 14px;
                 color: #616670;
                 font-weight: 700;
             }
             #guide > ul > li > ul > li{
-                list-style-type: none
+                list-style-type: disc
+            }
+            #guide > ul > li > ul{
+                padding-left: 20px;
             }
             #guide > ul > li > ul > li > ul > li > a{
-                font-family: ArialMT;
+                font-family: Helvetica;
                 font-size: 12px;
                 color: #616670;
                 font-weight: 400;
@@ -65,8 +69,11 @@
             #guide > ul > li > ul > li > ul > li{
                 list-style-type: none
             }
+            #guide > ul > li > ul > li > ul{
+                padding-left: 0px;
+            }
             #guide > ul > li > ul > li > ul > li > ul > li > a{
-                font-family: ArialMT;
+                font-family: Helvetica;
                 font-size: 12px;
                 color: #616670;
                 font-weight: 400;
@@ -76,8 +83,11 @@
             #guide > ul > li > ul > li > ul > li > ul > li{
                 list-style-type: none
             }
+            #guide > ul > li > ul > li > ul > li > ul{
+                padding-left: 20px;
+            }
             #guide > ul > li > ul > li > ul > li > ul > li > ul > li > a{
-                font-family: ArialMT;
+                font-family: Helvetica;
                 font-size: 12px;
                 color: #616670;
                 font-weight: 400;
@@ -86,6 +96,9 @@
             }
             #guide > ul > li > ul > li > ul > li > ul > li > ul > li {
                 list-style-type: none
+            }
+            #guide > ul > li > ul > li > ul > li > ul > li > ul{
+                padding-left: 20px;
             }
             #content > table {
                 border-collapse:collapse;
@@ -101,59 +114,59 @@
             }
             #content > pre{
                 background-color: #F6F8FA ;
-                line-height: 25px;
+                line-height: 45px;
                 font-family: SFMono-Regular;
-                font-size: 16px;
+                font-size: 14px;
                 color: #000000;
                 font-weight: 400;
+                padding-left: 10px;
             }
             #content > h2{
-                font-family: Arial-BoldMT;
+                font-family: Helvetica;
                 font-size: 32px;
                 color: #000000;
                 font-weight: 700;
                 margin-top: 50px;
             }
             #content > h3{
-                font-family: Arial-BoldMT;
+                font-family: Helvetica;
                 font-size: 18px;
                 color: #000000;
                 font-weight: 700;
             }
             #content > h4{
-                font-family: ArialMT;
+                font-family: Helvetica;
                 font-size: 16px;
                 color: #000000;
                 font-weight: 400;
             }
             #content > p{
-                font-family: ArialMT;
+                font-family: Helvetica;
                 font-size: 16px;
                 color: #000000;
                 font-weight: 400;
             }
             #content > p > a{
-                font-family: ArialMT;
+                font-family: Helvetica;
                 font-size: 16px;
                 color: #000000;
                 font-weight: 400;
             }
             
-    
-            @media (max-width: 1270px) {
-                #largediv {
-                    padding: 0;
-                }
-            }
             @media (max-width:990px){
+                
                 #guide{
                     display: none;
                 }
                 #content{
+                    padding: 0px 20px;
                     width: 100%;
                 }
             }
         </style>
+        <script src="marked.min.js"></script>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+        
       </head>
       <body>
         <!-- HEADER -->
