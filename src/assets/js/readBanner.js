@@ -161,16 +161,6 @@
                     "add": "encoding",
                     "channel": "color",
                     "field": "Origin"
-                  },
-                  {
-                    "add": "annotation",
-                    "method": "glow",
-                    "target": [
-                      {
-                        "field": "Origin",
-                        "value": "USA"
-                      }
-                    ]
                   }
                 ]
               },
@@ -1091,6 +1081,143 @@
                     }
                   }
                 ]
+              },{
+                "data": {
+                  "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
+                  "schema": [
+                    {
+                      "field": "industry",
+                      "type": "categorical"
+                    },
+                    {
+                      "field": "funded status",
+                      "type": "categorical"
+                    },
+                    {
+                      "field": "cause of failure",
+                      "type": "categorical"
+                    },
+                    {
+                      "field": "broken year",
+                      "type": "temporal"
+                    },
+                    {
+                      "field": "survival time",
+                      "type": "numerical"
+                    },
+                    {
+                      "field": "location",
+                      "type": "categorical"
+                    }
+                  ]
+                },
+                "actions": [
+                  {
+                    "add": "config",
+                    "mode": "light",
+                    "emotion": ""
+                  },
+                  {
+                    "select": [
+                      {
+                        "field": "survival time",
+                        "aggregate": "average"
+                      },
+                      {
+                        "field": "location"
+                      },
+                      {
+                        "field": "funded status"
+                      },
+                      {
+                        "field": "broken year"
+                      },
+                      {
+                        "field": "industry"
+                      },
+                      {
+                        "field": "cause of failure"
+                      }
+                    ],
+                    "groupby": [
+                      {
+                        "field": "funded status"
+                      }
+                    ],
+                    "filter": []
+                  },
+                  {
+                    "add": "chart",
+                    "mark": {
+                      "type": "bar",
+                      "style": {
+                        "bin-spacing": 0.3,
+                        "corner-radius": 0,
+                        "stroke-width": 1,
+                        "stroke-opacity": 0.7,
+                        "stroke-color": "white",
+                        "fill-opacity": 1
+                      }
+                    },
+                    "style": {}
+                  },
+                  {
+                    "add": "title",
+                    "text": "Fun facts about dead startups!",
+                    "style": {
+                      "font-color": "white",
+                      "font-size": 37,
+                      "font-family": "Georgia",
+                      "font-style": "italic",
+                      "position": "top-left",
+                      "background-image": "https://narchart.github.io/editor/background/company_banner.png"
+                    }
+                  },
+                  {
+                    "add": "caption",
+                    "text": "Companies that go public have the longest mean survival time.",
+                    "style": {
+                      "font-color": "#364A45",
+                      "font-size": 19,
+                      "position": "top-left"
+                    }
+                  },
+                  {
+                    "add": "group",
+                    "actions": [
+                      {
+                        "add": "encoding",
+                        "channel": "x",
+                        "field": "funded status"
+                      },
+                      {
+                        "add": "encoding",
+                        "channel": "y",
+                        "field": "survival time"
+                      }
+                    ]
+                  },
+                  {
+                    "add": "annotation",
+                    "method": "reference",
+                    "target": [
+                      {
+                        "field": "funded status",
+                        "value": "Public"
+                      }
+                    ]
+                  },
+                  {
+                    "add": "annotation",
+                    "method": "fill",
+                    "target": [
+                      {
+                        "field": "funded status",
+                        "value": "Public"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "data": {
@@ -1271,136 +1398,6 @@
                   {
                     "add": "config",
                     "mode": "light",
-                    "emotion": ""
-                  },
-                  {
-                    "select": [
-                      {
-                        "field": "survival time",
-                        "aggregate": "average"
-                      },
-                      {
-                        "field": "location"
-                      },
-                      {
-                        "field": "funded status"
-                      },
-                      {
-                        "field": "broken year"
-                      },
-                      {
-                        "field": "industry"
-                      },
-                      {
-                        "field": "cause of failure"
-                      }
-                    ],
-                    "groupby": [
-                      {
-                        "field": "industry"
-                      }
-                    ],
-                    "filter": []
-                  },
-                  {
-                    "add": "chart",
-                    "mark": {
-                      "type": "bar",
-                      "style": {
-                        "bin-spacing": 0.1,
-                        "corner-radius": 0
-                      }
-                    },
-                    "style": {
-                      "mask-image": "https://narchart.github.io/editor/background/company_mask2.png"
-                    }
-                  },
-                  {
-                    "add": "title",
-                    "text": "Dead Startups",
-                    "style": {
-                      "font-color": "white",
-                      "font-size": 34,
-                      "font-family": "Georgia",
-                      "font-weight": "bold",
-                      "background-image": "https://narchart.github.io/editor/background/company_banner3.png",
-                      "position": "top-center"
-                    }
-                  },
-                  {
-                    "add": "caption",
-                    "text": "Companies from the new industry have the longest mean survival time.",
-                    "style": {
-                      "font-color": "black",
-                      "font-weight": "bold",
-                      "font-size": 15,
-                      "position": "top-left"
-                    }
-                  },
-                  {
-                    "add": "group",
-                    "actions": [
-                      {
-                        "add": "encoding",
-                        "channel": "x",
-                        "field": "industry"
-                      },
-                      {
-                        "add": "encoding",
-                        "channel": "y",
-                        "field": "survival time"
-                      }
-                    ]
-                  },
-                  {
-                    "add": "annotation",
-                    "method": "reference",
-                    "target": [
-                      {
-                        "field": "industry",
-                        "value": "New Industry"
-                      }
-                    ],
-                    "style": {
-                      "color": "red"
-                    }
-                  }
-                ]
-              },
-              {
-                "data": {
-                  "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
-                  "schema": [
-                    {
-                      "field": "industry",
-                      "type": "categorical"
-                    },
-                    {
-                      "field": "funded status",
-                      "type": "categorical"
-                    },
-                    {
-                      "field": "cause of failure",
-                      "type": "categorical"
-                    },
-                    {
-                      "field": "broken year",
-                      "type": "temporal"
-                    },
-                    {
-                      "field": "survival time",
-                      "type": "numerical"
-                    },
-                    {
-                      "field": "location",
-                      "type": "categorical"
-                    }
-                  ]
-                },
-                "actions": [
-                  {
-                    "add": "config",
-                    "mode": "light",
                     "emotion": "trustworthy",
                     "background-image": "https://narchart.github.io/editor/background/company_background.png"
                   },
@@ -1525,7 +1522,7 @@
                     "add": "config",
                     "mode": "light",
                     "emotion": "exciting",
-                    "background-image": "",
+                    "background-image": "https://narchart.github.io/editor/background/line_background3.png",
                     "background-color": ""
                   },
                   {
@@ -1565,13 +1562,13 @@
                       }
                     },
                     "style": {
-                      "background-image": "https://narchart.github.io/editor/background/line_chart_background2.png"
+                      
                     }
                   },
                   {
                     "add": "title",
-                    "text": "COVID-19",
                     "style": {
+                      "text": "COVID-19",
                       "font-size": 45,
                       "font-color": "#FF7602",
                       "font-family": "Arial Black",
@@ -1581,14 +1578,13 @@
                       "border-width": 0,
                       "position": "top-center",
                       "background-color": "",
-                      "background-image": "https://narchart.github.io/editor/background/line_banner3.png",
                       "top-padding": 0
                     }
                   },
                   {
                     "add": "caption",
-                    "text": "The number of recovered cases reached its peak on March 15.",
                     "style": {
+                      "text": "The number of recovered cases reached its peak on March 15.",
                       "font-color": "black",
                       "font-family": "Arial",
                       "font-style": "",
@@ -1621,8 +1617,8 @@
                         "value": "2020/3/15"
                       }
                     ],
-                    "text": "1362",
                     "style": {
+                      "text": "1362",
                       "tooltip-color": "#FF7602",
                       "font-color": "white",
                       "font-family": "Arial Black",
