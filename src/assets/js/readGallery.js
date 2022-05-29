@@ -4914,7 +4914,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "playful",
-              "background-image": "https://narchart.github.io/editor/background/car_background4.jpg"
+              "background-image": "https://narchart.github.io/editor/background/car_background5.jpg"
             },
             {
               "select": [{
