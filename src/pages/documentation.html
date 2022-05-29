@@ -17,6 +17,7 @@
                 align-items: baseline;
                 max-width: 1024px;
                 margin: 0 auto;
+                margin-bottom: 50px;
             }
             #guide{
                 width: 35%;
@@ -245,6 +246,8 @@
                     var hr = document.createElement("hr")
                     insertAfter(hr,h2s[i])
                 }
+                // all rights reserved
+                var footerHr = document.createElement("hr")
                 var footer = document.createElement("div")
                 footer.setAttribute('class','footer-bottom-area')
                 var copyright = document.createElement("div")
@@ -252,6 +255,7 @@
                 var copyrighttext = document.createElement("p")
                 copyrighttext.innerHTML = 'Copyright © 2022 Intelligent Big Data Visualization Lab All Rights Reserved'
                 copyright.appendChild(copyrighttext)
+                footer.appendChild(footerHr)
                 footer.appendChild(copyright)
                 body.appendChild(footer)
             }

@@ -381,42 +381,11 @@ input[type=button] {
     align-items: baseline;
 }
 
-@media (max-width: 975px) {
-    .container-homepage{
-        display: flex;
-        max-width: 1024px;
-        margin: 0 auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
-    .charts-details .charts-details-btn .btn1 {
-        margin-top: 26px !important;
-    }
-
-    .charts-details .charts-details-btn{
-        display: flex;
-        align-items: center;
-        margin-top: 0px;
-        margin-bottom: 15px;
-    }
-    .charts-details .charts-details-text{
-        width: 100% !important;
-    }
-
-    .charts-details .charts-details-btn .btn{
-        width: 165px !important;
-    }
-    .btn2{
-        margin-left: 10px !important;
-    }
-
-   
-}
 @media (max-width: 1110px) {
     .container{
+        padding:0 20px;
+    }
+    .container-homepage{
         padding:0 20px;
     }
 }
@@ -2613,3 +2582,41 @@ ul.slicknav_nav li a:hover {
 /* .innerContainer{
     margin-left: 30px;
 } */
+
+@media (max-width: 975px) {
+    .container-homepage{
+        display: flex;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .charts-details .charts-details-btn .btn1 {
+        margin-top: 26px !important;
+    } */
+
+    .charts-details .charts-details-btn{
+        display: flex;
+        align-items: center;
+        margin-top: -15px;
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .charts-details .charts-details-text{
+        width: 100% !important;
+        margin-bottom: 0px !important;
+    }
+
+    .charts-details .charts-details-btn .btn{
+        width: 100% !important;
+    }
+    .btn2{
+        margin-left: 10px !important;
+    }
+
+   
+}
