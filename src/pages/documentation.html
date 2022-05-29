@@ -12,6 +12,8 @@
         <script src="../assets/js/jquery.js"></script>
         <script src="../assets/js/jquery.slicknav.js"></script>
         <script src="../assets/js/main.js"></script>
+        <script src="marked.min.js"></script>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
         <style>
             #largediv{
                 display: flex;
@@ -167,9 +169,6 @@
                 }
             }
         </style>
-        <script src="marked.min.js"></script>
-        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
-        
       </head>
       <body>
         <!-- HEADER -->
@@ -224,7 +223,7 @@
                 // 把导航栏提出来
                 var leftDiv = document.createElement("div")
                 leftDiv.setAttribute('id','guide')
-                var leftUl = document.getElementsByTagName("ul")[1]
+                var leftUl = document.getElementById('content').getElementsByTagName("ul")[0]
                 leftDiv.appendChild(leftUl)
                 largeDiv.insertBefore(leftDiv,content)
                 // 给h2后面添加横线hr

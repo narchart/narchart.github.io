@@ -1,8 +1,8 @@
 # Narrative Chart
 
-- [Narrative Chart](#narrative-charts)
+- [Narrative Chart](#narrative-chart)
   - [Introduction](#introduction)
-    - [What is Narrative Chart?](#what-is-narrative-charts)
+    - [What is Narrative Chart?](#what-is-narrative-chart)
     - [Differences from other visualization libraries?](#differences-from-other-visualization-libraries)
     - [Features](#features)
   - [Getting Started](#getting-started)
