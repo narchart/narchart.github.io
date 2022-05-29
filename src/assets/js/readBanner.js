@@ -1029,7 +1029,8 @@
                       "font-size": 34,
                       "font-style": "italic",
                       "divide-line-width": 3,
-                      "divide-line-color": "green"
+                      "divide-line-color": "green",
+                      "text": "Which car brand has the highest sales?"
                     }
                   },
                   {

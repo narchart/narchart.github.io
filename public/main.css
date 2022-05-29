@@ -179,7 +179,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #D0D0D0;
-    margin: 1em 0;
+    margin: 0.5em 0;
     padding: 0;
 }
 
@@ -428,7 +428,7 @@ input[type=button] {
 
 .col-3-4 {
     width: 65%;
-    padding-left: 15px;
+    padding-left: 5px;
     padding-right: 15px;
 }
 
@@ -900,6 +900,7 @@ footer .copyright {
     width: 1024px;
     height: 340px;
     overflow: hidden;
+    z-index: 0;
 }
 .bannerImage{
     /* position: relative; */
@@ -2376,6 +2377,12 @@ ul.slicknav_nav li a:hover {
 @media (max-width: 850px) {
     .slicknav_menu {
         display: block;
+        z-index: 999;
+        box-shadow: 0px -1px 50px 5px rgb(151 151 151 / 45%);
+    }
+    .charts-slogan{
+        z-index: 999;
+        /* box-shadow: 0px 1px 50px 5px rgb(151 151 151 / 45%); */
     }
 }
 
@@ -2658,6 +2665,8 @@ ul.slicknav_nav li a:hover {
     .charts-details .charts-details-text{
         width: 100% !important;
         margin-bottom: 0px !important;
+        margin-top: -20px;
+        line-height: 30px;
     }
 
     .charts-details .charts-details-btn .btn{
@@ -2665,6 +2674,12 @@ ul.slicknav_nav li a:hover {
     }
     .btn2{
         margin-left: 10px !important;
+    }
+    .description-light-small{
+        line-height: 20px;
+    }
+    .charts-differences p{
+        margin:5px 0px;
     }
 }
    
