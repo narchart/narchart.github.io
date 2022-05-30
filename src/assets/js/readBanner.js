@@ -659,7 +659,8 @@
                     "add": "config",
                     "mode": "light",
                     "emotion": "",
-                    "background-image": "https://narchart.github.io/editor/background/car_background3.jpg"
+                    "background-image": {"url":"https://narchart.github.io/editor/background/car_background3.jpg"},
+                    "background-color":""
                   },
                   {
                     "select": [
@@ -829,7 +830,8 @@
                     "add": "config",
                     "mode": "light",
                     "emotion": "playful",
-                    "background-image": "https://narchart.github.io/editor/background/car_background5.jpg"
+                    "background-image": {"url":"https://narchart.github.io/editor/background/car_background5.jpg"},
+                    "background-color":""
                   },
                   {
                     "select": [{
@@ -1400,7 +1402,8 @@
                     "add": "config",
                     "mode": "light",
                     "emotion": "trustworthy",
-                    "background-image": "https://narchart.github.io/editor/background/company_background.png"
+                    "background-image": {"url":"https://narchart.github.io/editor/background/company_background.png"},
+                    "background-color":""
                   },
                   {
                     "select": [
@@ -1523,7 +1526,7 @@
                     "add": "config",
                     "mode": "light",
                     "emotion": "exciting",
-                    "background-image": "https://narchart.github.io/editor/background/line_background3.png",
+                    "background-image": {"url":"https://narchart.github.io/editor/background/line_background3.png"},
                     "background-color": ""
                   },
                   {
@@ -1662,7 +1665,8 @@
                     "add": "config",
                     "mode": "light",
                     "emotion": "negative",
-                    "background-image": "https://narchart.github.io/editor/background/line_background.png"
+                    "background-image": {"url":"https://narchart.github.io/editor/background/line_background.png"},
+                    "background-color":""
                   },
                   {
                     "select": [

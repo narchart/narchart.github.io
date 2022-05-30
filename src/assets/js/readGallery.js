@@ -19,7 +19,7 @@
         let getValue = e.target.getAttribute("src")
         let result = getValue.replace(/[^0-9]/ig,"")
         let data = [
-            {
+          {   
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -54,7 +54,7 @@
                   "add": "config",
                   "mode": "light",
                   "emotion": "trustworthy",
-                  "background-image": "https://narchart.github.io/editor/background/company_background.png"
+                  "background-image": {"url": "https://narchart.github.io/editor/background/company_background.png"}
                 },
                 {
                   "select": [
@@ -142,9 +142,12 @@
                   ]
                 }
               ]
-            },
+            
           
-            {
+          }, {   
+           
+           
+            
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -221,7 +224,7 @@
                     }
                   },
                   "style": {
-                    "background-image": "https://narchart.github.io/editor/background/company_background2.png"
+                    "background-image": {"url": "https://narchart.github.io/editor/background/company_background2.png"}
                   }
                 },
                 {
@@ -241,7 +244,8 @@
                   "style": {
                     "font-color": "#FE5C34",
                     "font-size": 15,
-                    "position": "top-left"
+                    "position": "top-left",
+                    "top-padding": 5
                   }
                 },
                 {
@@ -295,12 +299,12 @@
                   }
                 }
               ]
-            }
+            
           
-         ,
-          
+          }, {   
            
-            {
+           
+            
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -398,7 +402,8 @@
                   "style": {
                     "font-color": "#364A45",
                     "font-size": 19,
-                    "position": "top-left"
+                    "position": "top-left",
+                    "top-padding": 10
                   }
                 },
                 {
@@ -437,12 +442,12 @@
                   ]
                 }
               ]
-            }
+            
                
-       ,
-          
+        }, {   
            
-            {
+           
+            
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -542,7 +547,8 @@
                   "style": {
                     "font-color": "white",
                     "font-size": 15,
-                    "position": "top-left"
+                    "position": "top-left",
+                    "top-padding": 10
                   }
                 },
                 {
@@ -576,12 +582,12 @@
                   }
                 }
               ]
-            }
+            
           
-         ,
-          
+          }, {   
            
-            {
+           
+            
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -725,12 +731,12 @@
                   ]
                 }
               ]
-            }
+            
           
-         ,
-          
+          }, {   
            
-            {
+           
+            
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -825,7 +831,8 @@
                     "font-color": "#FFCD00",
                     "font-weight": "bold",
                     "font-size": 15,
-                    "position": "top-left"
+                    "position": "top-left",
+                    "top-padding": 10
                   }
                 },
                 {
@@ -868,12 +875,12 @@
                   }
                 }
               ]
-            }
+            
           
-         ,
-          
+          }, {   
            
-            {
+           
+            
               "data": {
                 "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
                 "schema": [
@@ -970,7 +977,8 @@
                     "font-color": "black",
                     "font-weight": "bold",
                     "font-size": 15,
-                    "position": "top-left"
+                    "position": "top-left",
+                    "top-padding": 15
                   }
                 },
                 {
@@ -1002,12 +1010,12 @@
                   }
                 }
               ]
-            }
+            
           
-         ,
-        
+          }, {   
          
-          {
+         
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
               "schema": [
@@ -1042,7 +1050,7 @@
                 "add": "config",
                 "mode": "dark",
                 "emotion": "negative",
-                "background-image": "https://narchart.github.io/editor/background/company_background3.png"
+                "background-image": {"url": "https://narchart.github.io/editor/background/company_background3.png"}
               },
               {
                 "select": [
@@ -1147,12 +1155,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
               "schema": [
@@ -1305,12 +1313,12 @@
                 ]
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
               "schema": [
@@ -1456,12 +1464,12 @@
                 ]
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -1495,7 +1503,7 @@
                 "add": "config",
                 "mode": "light",
                 "emotion": "negative",
-                "background-image": "https://narchart.github.io/editor/background/line_background.png"
+                "background-image": { "url":"https://narchart.github.io/editor/background/line_background.png"}
               },
               {
                 "select": [
@@ -1597,12 +1605,12 @@
                 "style": {}
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [{
@@ -1635,7 +1643,7 @@
                 "mode": "dark",
                 "emotion": "disturbing",
                 "background-image": "",
-                "background-color": "white"
+                "background-color":  {"color":"white"}
               },
               {
                 "select": [{
@@ -1670,7 +1678,7 @@
                   }
                 },
                 "style": {
-                  "background-image": "https://narchart.github.io/editor/background/line_chart_background.png"
+                  "background-image": {"url":"https://narchart.github.io/editor/background/line_chart_background.png"}
                 }
               },
               {
@@ -1727,12 +1735,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -1767,7 +1775,7 @@
                 "mode": "light",
                 "emotion": "",
                 "background-image": "",
-                "background-color": "white"
+                "background-color":  {"color":"white"}
               },
               {
                 "select": [
@@ -1832,7 +1840,8 @@
                   "font-family": "Georgia",
                   "font-weight": "bold",
                   "font-size": 14,
-                  "position": "top-center"
+                  "position": "top-center",
+                  "top-padding": 15
                 }
               },
               {
@@ -1876,12 +1885,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -2023,12 +2032,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -2178,12 +2187,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+        
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -2286,7 +2295,8 @@
                   "font-style": "",
                   "font-weight": "bold",
                   "font-size": 15,
-                  "position": "top-center"
+                  "position": "top-center",
+                  "top-padding": 20
                 }
               },
               {
@@ -2318,12 +2328,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -2397,7 +2407,7 @@
                   }
                 },
                 "style": {
-                  "background-image": "https://narchart.github.io/editor/background/line_chart_background2.png"
+                  "background-image": {"url":"https://narchart.github.io/editor/background/line_chart_background2.png"}
                 }
               },
               {
@@ -2426,7 +2436,8 @@
                   "font-style": "",
                   "font-weight": "bold",
                   "font-size": 16,
-                  "position": "top-center"
+                  "position": "top-center",
+                  "top-padding": 20
                 }
               },
               {
@@ -2462,12 +2473,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -2501,7 +2512,7 @@
                 "add": "config",
                 "mode": "dark",
                 "emotion": "positive",
-                "background-image": "https://narchart.github.io/editor/background/line_background2.png",
+                "background-image": {"url":"https://narchart.github.io/editor/background/line_background2.png"},
                 "background-color": ""
               },
               {
@@ -2598,12 +2609,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
          
-          {
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/covid19World.csv",
               "schema": [
@@ -2738,12 +2749,12 @@
                 }
               }
             ]
-          }
           
-       ,
-      
+          
+        }, {   
+       
+       
         
-        {
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -2770,7 +2781,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "negative",
-              "background-image": "https://cdn.pixabay.com/photo/2018/05/12/22/43/lane-3394768_1280.jpg"
+              "background-image": { "url":"https://cdn.pixabay.com/photo/2018/05/12/22/43/lane-3394768_1280.jpg"}
             },
             {
               "select": [
@@ -2805,7 +2816,7 @@
                 }
               },
               "style": {
-                "background-color": "white"
+                "background-color":  {"color":"white"}
               }
             },
             {
@@ -2864,12 +2875,12 @@
               ]
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -2985,7 +2996,10 @@
                   "field": "Brand",
                   "value": "Ford"
                 }
-              ]
+              ],
+              "style": {
+                "color":"none"
+              }
             },
             {
               "add": "annotation",
@@ -3005,12 +3019,12 @@
               }
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3037,7 +3051,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "negative",
-              "background-image": "https://narchart.github.io/editor/background/pie_background2.png"
+              "background-image": { "url":"https://narchart.github.io/editor/background/pie_background2.png"}
             },
             {
               "select": [
@@ -3141,12 +3155,12 @@
               }
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3267,12 +3281,12 @@
               }
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3333,7 +3347,7 @@
                 }
               },
               "style": {
-                "background-image": "https://narchart.github.io/editor/background/car_background4.jpg"
+                "background-image": { "url":"https://narchart.github.io/editor/background/car_background4.jpg"}
               }
             },
             {
@@ -3398,12 +3412,12 @@
               }
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3486,7 +3500,8 @@
                 "font-family": "Times",
                 "font-weight": "bold",
                 "font-size": 20,
-                "font-style": "italic"
+                "font-style": "italic",
+                "top-padding": 20
               }
             },
             {
@@ -3545,12 +3560,12 @@
               }
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3611,7 +3626,7 @@
                 }
               },
               "style": {
-                "background-image": "https://narchart.github.io/editor/background/car_background2.png"
+                "background-image": {"url":"https://narchart.github.io/editor/background/car_background2.png"}
               }
             },
             {
@@ -3633,7 +3648,8 @@
                 "font-family": "Times",
                 "font-weight": "bold",
                 "font-size": 20,
-                "font-style": "italic"
+                "font-style": "italic",
+                "top-padding": 10
               }
             },
             {
@@ -3672,12 +3688,12 @@
               ]
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3793,12 +3809,12 @@
               }
             }
           ]
-        }
-          
-     ,
-      
         
-        {
+          
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
             "schema": [
@@ -3982,12 +3998,12 @@
               }
             }
           ]
-        }
-          
-     ,
         
           
-          {
+      }, {   
+         
+         
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
               "schema": [
@@ -4014,7 +4030,7 @@
                 "add": "config",
                 "mode": "light",
                 "emotion": "negative",
-                "background-image": "https://cdn.pixabay.com/photo/2018/05/12/22/43/lane-3394768_1280.jpg"
+                "background-image": { "url":"https://cdn.pixabay.com/photo/2018/05/12/22/43/lane-3394768_1280.jpg"}
               },
               {
                 "select": [
@@ -4173,12 +4189,12 @@
                 }
               }
             ]
-          }
           
-       ,
-        
+          
+        }, {   
+         
        
-        {
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -4225,7 +4241,7 @@
               "add": "config",
               "mode": "dark",
               "emotion": "exciting",
-              "background-image": "https://narchart.github.io/editor/background/car_background.jpg"
+              "background-image": { "url":"https://narchart.github.io/editor/background/car_background.jpg"}
             },
             {
               "select": [
@@ -4287,7 +4303,8 @@
               "add": "caption",
               "text": "This chart shows the car that has the highest Miles per gallon.",
               "style": {
-                "position": "left"
+                "position": "left",
+                "top-padding": 15
               }
             },
             {
@@ -4344,12 +4361,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -4396,7 +4413,7 @@
               "add": "config",
               "mode": "dark",
               "emotion": "positive",
-              "background-image": "https://narchart.github.io/editor/background/car_background2.png"
+              "background-image": { "url":"https://narchart.github.io/editor/background/car_background2.png" }
             },
             {
               "select": [
@@ -4458,10 +4475,11 @@
               "text": "The relationship between horsepower, miles per gallon and acceleration.",
               "style": {
                 "font-family": "Gil Sans",
-                "font-size": 19,
+                "font-size": 17,
                 "font-weight": "regular",
                 "font-color": "#FFFFFF",
-                "position": "left"
+                "position": "left",
+                "top-padding": 15
               }
             },
             {
@@ -4527,12 +4545,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -4579,7 +4597,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "",
-              "background-image": "https://narchart.github.io/editor/background/car_background3.jpg"
+              "background-image": { "url":"https://narchart.github.io/editor/background/car_background3.jpg"}
             },
             {
               "select": [
@@ -4648,7 +4666,8 @@
                 "font-size": 16,
                 "font-weight": "regular",
                 "font-color": "#364A45",
-                "position": "left"
+                "position": "left",
+                "top-padding": 10
               }
             },
             {
@@ -4703,12 +4722,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -4822,7 +4841,8 @@
                 "font-size": 16,
                 "font-weight": "regular",
                 "font-color": "#FFFFFF",
-                "position": "top-center"
+                "position": "top-center",
+                "top-padding": 10
               }
             },
             {
@@ -4864,12 +4884,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [{
@@ -4914,7 +4934,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "playful",
-              "background-image": "https://narchart.github.io/editor/background/car_background5.jpg"
+              "background-image": { "url":"https://narchart.github.io/editor/background/car_background4.jpg"}
             },
             {
               "select": [{
@@ -5039,11 +5059,11 @@
               }
             }
           ]
-        }
-     ,
-      
+        
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -5156,7 +5176,8 @@
                 "font-size": 19,
                 "font-weight": "regular",
                 "font-color": "white",
-                "position": "top-center"
+                "position": "top-center",
+                "top-padding": 10
               }
             },
             {
@@ -5221,12 +5242,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -5361,12 +5382,12 @@
               ]
             }
           ]
-        }
+        
           
-     ,
-      
+      }, {   
        
-        {
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [{
@@ -5467,7 +5488,7 @@
             },
             {
               "add": "caption",
-              "text": "This scatterplot shows the relationship between car weight and horsepower, and the circle size encodes acceleration.",
+              "text": "This Scatterplot shows the relationship between car weight and horsepower, and the circle size encodes acceleration.",
               "style": {
                 "font-family": "Gil Sans",
                 "font-size": 16,
@@ -5513,12 +5534,12 @@
               }
             }
           ]
-        }
+      
           
-     ,
-        
+      }, {   
          
-          {
+         
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
               "schema": [
@@ -5681,12 +5702,12 @@
                 }
               }
             ]
-          }
           
-       ,
-        
+          
+        }, {   
          
-          {
+         
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
               "schema": [{
@@ -5845,12 +5866,12 @@
                 }
               }
             ]
-          }
           
-       ,
+          
+        }, {   
+         
+       
         
-      
-        {
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6004,12 +6025,12 @@
               ]
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6149,12 +6170,12 @@
               "target": []
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6289,12 +6310,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6403,7 +6424,7 @@
                 }
               },
               "style": {
-                "background-color": "#F2F2F2"
+                "background-color":  {"color":"#F2F2F2"}
               }
             },
             {
@@ -6412,12 +6433,12 @@
               "field": "Origin"
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6526,7 +6547,7 @@
                 }
               },
               "style": {
-                "background-image": "https://narchart.github.io/editor/background/car_background.jpg"
+                "background-image": { "url":"https://narchart.github.io/editor/background/car_background.jpg"}
               }
             },
             {
@@ -6565,12 +6586,12 @@
               "field": "Year"
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6705,7 +6726,7 @@
                 "font-weight": "bold",
                 "font-size": 18,
                 "position": "top-left",
-                "top-padding": 10
+                "top-padding": 15
               }
             },
             {
@@ -6743,12 +6764,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6799,7 +6820,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "trustworthy",
-              "background-image": "https://narchart.github.io/editor/background/car_background4.jpg"
+              "background-image": { "url":"https://narchart.github.io/editor/background/car_background4.jpg"}
             },
             {
               "select": [
@@ -6857,7 +6878,7 @@
                   "fill-opacity": 1
                 }
               },
-              "style": {"background-color": "white"}
+              "style": {"background-color":  {"color":"white"}}
             },
             {
               "add": "title",
@@ -6916,12 +6937,12 @@
               ]
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -6972,7 +6993,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "calm",
-              "background-image": "https://narchart.github.io/editor/background/car_background4.jpg"
+              "background-image": { "url":"https://narchart.github.io/editor/background/car_background4.jpg"}
             },
             {
               "select": [
@@ -7058,7 +7079,7 @@
                 "font-weight": "bold",
                 "font-size": 18,
                 "position": "top-left",
-                "top-padding": 10
+                "top-padding": 20
               }
             },
             {
@@ -7127,12 +7148,12 @@
               "style": {}
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -7183,7 +7204,7 @@
               "add": "config",
               "mode": "light",
               "emotion": "calm",
-              "background-image": "https://narchart.github.io/editor/background/car_background4.jpg"
+              "background-image": {"url":"https://narchart.github.io/editor/background/car_background4.jpg"}
             },
             {
               "select": [
@@ -7270,7 +7291,7 @@
                 "font-weight": "regular",
                 "font-size": 18,
                 "position": "top-left",
-                "top-padding": 10
+                "top-padding": 20
               }
             },
             {
@@ -7307,12 +7328,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-      
-      
-        {
+      }, {   
+       
+       
+        
           "data": {
             "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
             "schema": [
@@ -7498,12 +7519,12 @@
               }
             }
           ]
-        }
+        
           
-     ,
-        
-        
-          {
+      }, {   
+         
+         
+          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/cars.csv",
               "schema": [
@@ -7642,7 +7663,7 @@
                   "font-color": "black",
                   "font-family": "Calibri",
                   "font-weight": "regular",
-                  "font-size": 18,
+                  "font-size": 16,
                   "position": "top-center",
                   "top-padding": 10
                 }
@@ -7673,7 +7694,9 @@
                 ]
               }
             ]
-          }
+          
+          
+        }
           
         ];
         // 数据加密
