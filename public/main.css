@@ -378,7 +378,7 @@ input[type=button] {
     /* padding-left: 15px; */
     /* padding-right: 15px; */
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 @media (max-width: 1110px) {
@@ -649,15 +649,14 @@ img {
     font-weight: 400;
 }
 .charts-details{
-    /* margin-top: 18px; */
+    margin-top: 16px;
 }
 .charts-details .charts-details-text{
     float: left;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    width: 75%;
-    line-height: 40px;
+    width: 76%;
+    line-height: 25px;
     text-align:justify;
+    margin-bottom: 16px;
     /* display: inline-block; */
 }
 .charts-details .charts-details-btn{
@@ -672,9 +671,9 @@ img {
     /* margin: auto; */
     margin-top: 18px;
     text-align: center;
-    width: 215px;
-    height: 50px;
-    line-height: 30px;
+    width: 198px;
+    height: 42px;
+    line-height: 20px;
     background-color: transparent;
     border: none;
     /* border: 1px solid #000000; */
@@ -689,12 +688,13 @@ img {
 }
 
 .charts-details .charts-details-btn .btn1{
-    /* margin-top: 0px; */
+    margin-top: 0px;
     background-color: #65a1c6;
     color: #fff;
 }
 
 .charts-details .charts-details-btn .btn2{
+    margin-bottom: 16px;
     /* margin-top: 0px; */
     border: 2px solid #ACACAC;
     /* background-color: #e0e0e0; */
@@ -772,7 +772,7 @@ hr{
 .member-information{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .member-information > i {
@@ -2384,6 +2384,9 @@ ul.slicknav_nav li a:hover {
         z-index: 999;
         /* box-shadow: 0px 1px 50px 5px rgb(151 151 151 / 45%); */
     }
+    .description-inline{
+        margin-top: 10px;
+    }
 }
 
 
@@ -2660,7 +2663,7 @@ ul.slicknav_nav li a:hover {
         display: flex;
         align-items: center;
         margin-top: -15px;
-        margin-bottom: 16px;
+        margin-bottom: 0px;
         width: 100%;
         margin-left: 0px;
     }
@@ -2708,6 +2711,9 @@ ul.slicknav_nav li a:hover {
         line-height: 15px;
         height: 35px;
     }
+    .charts-details .charts-details-btn .btn1{
+        margin-bottom: -1px;
+    }
     .description-bold{
         font-size: 16px;
         line-height: 10px;
@@ -2722,9 +2728,16 @@ ul.slicknav_nav li a:hover {
     }
     .description-bold-small{
         font-size: 14px;
+        margin-top: 12px;
     }
     .description-light-small-p{
         line-height: 18px;
+    }
+    .feature-img img{
+        width: 40px
+    }
+    .chart-feature-grid .feature-img {
+        min-width: 60px;
     }
 
 }
