@@ -1159,8 +1159,6 @@
           
         }, {   
        
-         
-          
             "data": {
               "url": "https://narchart.github.io/editor/spreadsheets/deadstartup.csv",
               "schema": [
@@ -1308,7 +1306,11 @@
                         "field": "industry",
                         "value": "New Industry"
                       }
-                    ]
+                    ],
+                    "style":{
+                      "width":30,
+                      "height":30
+                    }
                   }
                 ]
               }
@@ -3021,142 +3023,133 @@
           ]
         
           
-      }, {   
-       
-       
-        
-          "data": {
-            "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
-            "schema": [
-              {
-                "field": "Year",
-                "type": "temporal"
-              },
-              {
-                "field": "Brand",
-                "type": "categorical"
-              },
-              {
-                "field": "Category",
-                "type": "categorical"
-              },
-              {
-                "field": "Sales",
-                "type": "numerical"
-              }
-            ]
-          },
-          "actions": [
+      }, {
+        "data": {
+          "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
+          "schema": [
             {
-              "add": "config",
-              "mode": "light",
-              "emotion": "negative",
-              "background-image": { "url":"https://narchart.github.io/editor/background/pie_background2.png"}
+              "field": "Year",
+              "type": "temporal"
             },
             {
-              "select": [
-                {
-                  "field": "Sales",
-                  "aggregate": "count"
-                },
-                {
-                  "field": "Brand"
-                }
-              ],
-              "groupby": [
-                {
-                  "field": "Brand"
-                }
-              ],
-              "filter": []
+              "field": "Brand",
+              "type": "categorical"
             },
             {
-              "add": "chart",
-              "mark": {
-                "type": "arc",
-                "style": {
-                  "inner-radius": 100,
-                  "outer-radius": 220,
-                  "text-radius": 240,
-                  "corner-radius": 0,
-                  "stroke": "blue",
-                  "stroke-width": 2,
-                  "stroke-opacity": 0,
-                  "fill-opacity": 1
-                }
-              },
-              "style": {}
+              "field": "Category",
+              "type": "categorical"
             },
             {
-              "add": "title",
-              "text": "Which car brand has the highest sales?",
-              "style": {
-                "position": "center",
-                "font-family": "Times",
-                "font-weight": "bold",
-                "font-color": "black",
-                "font-size": 34,
-                "font-style": "italic",
-                "top-padding": 30,
-                "background-color": "white"
-              }
-            },
-            {
-              "add": "caption",
-              "text": "Ford has the highest proportion of sales among all the brands.",
-              "style": {
-                "font-family": "Times",
-                "font-size": 20,
-                "font-weight": "bold",
-                "font-color": "black",
-                "position": "top-left",
-                "top-padding": 20
-              }
-            },
-            {
-              "add": "encoding",
-              "channel": "theta",
-              "field": "Sales"
-            },
-            {
-              "add": "annotation",
-              "method": "desaturate",
-              "target": []
-            },
-            {
-              "add": "annotation",
-              "method": "contour",
-              "target": [
-                {
-                  "field": "Brand",
-                  "value": "Ford"
-                }
-              ],
-              "style": {
-                "stroke-width": 6,
-                "stroke-color": "red"
-              }
-            },
-            {
-              "add": "annotation",
-              "method": "label",
-              "target": [
-                {
-                  "field": "Brand",
-                  "value": "Ford"
-                }
-              ],
-              "style": {
-                "text": "Ford",
-                "font-color": "white",
-        "font-weight": "bold",
-        "font-size": 30
-        
-              }
+              "field": "Sales",
+              "type": "numerical"
             }
           ]
+        },
+        "actions": [
+          {
+            "add": "config",
+            "mode": "light",
+            "emotion": "positive",
+            "background-image": {
+              "url": "https://narchart.github.io/editor/background/car_background7.jpg"
+            }
+          },
+          {
+            "select": [
+              {
+                "field": "Sales",
+                "aggregate": "count"
+              },
+              {
+                "field": "Brand"
+              }
+            ],
+            "groupby": [
+              {
+                "field": "Brand"
+              }
+            ],
+            "filter": []
+          },
+          {
+            "add": "chart",
+            "mark": {
+              "type": "arc",
+              "style": {
+                "inner-radius": 100,
+                "outer-radius": 220,
+                "text-radius": 240,
+                "corner-radius": 0,
+                "stroke": "blue",
+                "stroke-width": 2,
+                "stroke-opacity": 0,
+                "fill-opacity": 0.5
+              }
+            },
+            "style": {}
+          },
+          {
+            "add": "title",
+            "text": "Which car brand has the highest sales?",
+            "style": {
+              "position": "center",
+              "font-family": "Times",
+              "font-weight": "bold",
+              "font-color": "black",
+              "font-size": 34,
+              "font-style": "italic",
+              "top-padding": 20,
+              "background-color": "white",
+              "text": "Which car brand has the highest sales?"
+            }
+          },
+          {
+            "add": "caption",
+            "text": "Ford has the highest proportion of sales among all the brands.",
+            "style": {
+              "font-family": "Times",
+              "font-size": 20,
+              "font-weight": "bold",
+              "font-color": "black",
+              "position": "top-left",
+              "top-padding": 20,
+              "text": "Ford has the highest proportion of sales among all the brands."
+            }
+          },
+          {
+            "add": "encoding",
+            "channel": "theta",
+            "field": "Sales"
+          },
+          {
+            "add": "annotation",
+            "method": "contour",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "Ford"
+              }
+            ],
+            "style": {
+              "stroke-width": 6,
+              "stroke-color": "red"
+            }
+          },
         
-          
+          {
+            "add": "annotation",
+            "method": "texture",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "Ford"
+              }
+            ],
+            "style": {
+              "background-image": "https://narchart.github.io/editor/background/ford.jpg"
+            }
+          }
+        ]
       }, {   
        
        
@@ -4000,198 +3993,198 @@
           ]
         
           
-      }, {   
-         
-         
-          
-            "data": {
-              "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
-              "schema": [
-                {
-                  "field": "Year",
-                  "type": "temporal"
-                },
-                {
-                  "field": "Brand",
-                  "type": "categorical"
-                },
-                {
-                  "field": "Category",
-                  "type": "categorical"
-                },
-                {
-                  "field": "Sales",
-                  "type": "numerical"
-                }
-              ]
+      }, {
+        "data": {
+          "url": "https://narchart.github.io/editor/spreadsheets/sales.csv",
+          "schema": [
+            {
+              "field": "Year",
+              "type": "temporal"
             },
-            "actions": [
+            {
+              "field": "Brand",
+              "type": "categorical"
+            },
+            {
+              "field": "Category",
+              "type": "categorical"
+            },
+            {
+              "field": "Sales",
+              "type": "numerical"
+            }
+          ]
+        },
+        "actions": [
+          {
+            "add": "config",
+            "mode": "light",
+            "emotion": "negative",
+            "background-image": {
+              "url": "https://narchart.github.io/editor/background/car_background6.jpg",
+              "opacity":0.65
+            }
+          },
+          {
+            "select": [
               {
-                "add": "config",
-                "mode": "light",
-                "emotion": "negative",
-                "background-image": { "url":"https://cdn.pixabay.com/photo/2018/05/12/22/43/lane-3394768_1280.jpg"}
+                "field": "Sales",
+                "aggregate": "count"
               },
               {
-                "select": [
-                  {
-                    "field": "Sales",
-                    "aggregate": "count"
-                  },
-                  {
-                    "field": "Brand"
-                  }
-                ],
-                "groupby": [
-                  {
-                    "field": "Brand"
-                  }
-                ],
-                "filter": []
-              },
-              {
-                "add": "chart",
-                "mark": {
-                  "type": "arc",
-                  "style": {
-                    "inner-radius": 100,
-                    "outer-radius": 220,
-                    "text-radius": 240,
-                    "corner-radius": 10,
-                    "stroke": "white",
-                    "stroke-width": 2,
-                    "stroke-opacity": 0.5,
-                    "fill-opacity": 1
-                  }
-                },
-                "style": {}
-              },
-              {
-                "add": "title",
-                "text": "Which car brands have the highest sales?",
-                "style": {
-                  "position": "center",
-                  "font-family": "Times",
-                  "font-weight": "bold",
-                  "font-color": "black",
-                  "font-size": 34,
-                  "font-style": "italic",
-                  "background-color": "white"
-                }
-              },
-              {
-                "add": "caption",
-                "text": "3 brands accounted for about a half of all the sales.",
-                "style": {
-                  "font-family": "Times",
-                  "font-size": 20,
-                  "font-weight": "bold",
-                  "font-color": "black",
-                  "position": "top-left",
-                  "background-color": "white"
-                }
-              },
-              {
-                "add": "encoding",
-                "channel": "theta",
-                "field": "Sales"
-              },
-              {
-                "add": "encoding",
-                "channel": "color",
                 "field": "Brand"
-              },
-              {
-                "add": "annotation",
-                "method": "arrow",
-                "target": [
-                  {
-                    "field": "Brand",
-                    "value": "Ford"
-                  }
-                ],
-                "style": {
-                  "color": "white"
-                }
-              },
-              {
-                "add": "annotation",
-                "method": "label",
-                "target": [
-                  {
-                    "field": "Brand",
-                    "value": "Ford"
-                  }
-                ],
-                "style": {
-                  "text": "Ford",
-                  "font-color": "white",
-                  "font-weight": "bold",
-                  "font-size": 20
-                }
-              },
-              {
-                "add": "annotation",
-                "method": "arrow",
-                "target": [
-                  {
-                    "field": "Brand",
-                    "value": "BMW"
-                  }
-                ],
-                "style": {
-                  "color": "white"
-                }
-              },
-              {
-                "add": "annotation",
-                "method": "label",
-                "target": [
-                  {
-                    "field": "Brand",
-                    "value": "BMW"
-                  }
-                ],
-                "style": {
-                  "text": "BMW",
-                  "font-color": "white",
-                  "font-weight": "bold",
-                  "font-size": 20
-                }
-              },
-              {
-                "add": "annotation",
-                "method": "arrow",
-                "target": [
-                  {
-                    "field": "Brand",
-                    "value": "Toyota"
-                  }
-                ],
-                "style": {
-                  "color": "white"
-                }
-              },
-              {
-                "add": "annotation",
-                "method": "label",
-                "target": [
-                  {
-                    "field": "Brand",
-                    "value": "Toyota"
-                  }
-                ],
-                "style": {
-                  "text": "Toyota",
-                  "font-color": "white",
-                  "font-weight": "bold",
-                  "font-size": 20
-                }
               }
-            ]
-          
-          
-        }, {   
+            ],
+            "groupby": [
+              {
+                "field": "Brand"
+              }
+            ],
+            "filter": []
+          },
+          {
+            "add": "chart",
+            "mark": {
+              "type": "arc",
+              "style": {
+                "inner-radius": 100,
+                "outer-radius": 220,
+                "text-radius": 240,
+                "corner-radius": 10,
+                "stroke": "white",
+                "stroke-width": 2,
+                "stroke-opacity": 0.5,
+                "fill-opacity": 1
+              }
+            },
+            "style": {}
+          },
+          {
+            "add": "title",
+            "text": "Which car brands have the highest sales?",
+            "style": {
+              "position": "center",
+              "font-family": "Times",
+              "font-weight": "bold",
+              "font-color": "black",
+              "font-size": 34,
+              "font-style": "italic",
+              "background-color": "white",
+              "text": "Which car brands have the highest sales?"
+            }
+          },
+          {
+            "add": "caption",
+            "text": "3 brands accounted for about a half of all the sales.",
+            "style": {
+              "font-family": "Times",
+              "font-size": 20,
+              "font-weight": "bold",
+              "font-color": "black",
+              "position": "top-left",
+              "background-color": "white",
+              "text": "3 brands accounted for about a half of all the sales."
+            }
+          },
+          {
+            "add": "encoding",
+            "channel": "theta",
+            "field": "Sales"
+          },
+          {
+            "add": "encoding",
+            "channel": "color",
+            "field": "Brand"
+          },
+          {
+            "add": "annotation",
+            "method": "arrow",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "Ford"
+              }
+            ],
+            "style": {
+              "color": "black"
+            }
+          },
+          {
+            "add": "annotation",
+            "method": "label",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "Ford"
+              }
+            ],
+            "style": {
+              "text": "Ford",
+              "font-color": "black",
+              "font-weight": "bold",
+              "font-size": 20
+            }
+          },
+          {
+            "add": "annotation",
+            "method": "arrow",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "BMW"
+              }
+            ],
+            "style": {
+              "color": "black"
+            }
+          },
+          {
+            "add": "annotation",
+            "method": "label",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "BMW"
+              }
+            ],
+            "style": {
+              "text": "BMW",
+              "font-color": "black",
+              "font-weight": "bold",
+              "font-size": 20
+            }
+          },
+          {
+            "add": "annotation",
+            "method": "arrow",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "Toyota"
+              }
+            ],
+            "style": {
+              "color": "black"
+            }
+          },
+          {
+            "add": "annotation",
+            "method": "label",
+            "target": [
+              {
+                "field": "Brand",
+                "value": "Toyota"
+              }
+            ],
+            "style": {
+              "text": "Toyota",
+              "font-color": "black",
+              "font-weight": "bold",
+              "font-size": 20
+            }
+          }
+        ]
+      }, {   
          
        
         
