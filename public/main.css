@@ -2660,7 +2660,7 @@ ul.slicknav_nav li a:hover {
         display: flex;
         align-items: center;
         margin-top: -15px;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
         width: 100%;
         margin-left: 0px;
     }
@@ -2670,6 +2670,10 @@ ul.slicknav_nav li a:hover {
         margin-top: -20px;
         line-height: 30px;
     }
+    .charts-details .charts-details-text p{
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
 
     .charts-details .charts-details-btn .btn{
         width: 100% !important;
@@ -2678,10 +2682,66 @@ ul.slicknav_nav li a:hover {
         margin-left: 10px !important;
     }
     .description-light-small{
-        line-height: 20px;
+        line-height: 18px;
+        font-size: 12px;
     }
     .charts-differences p{
         margin:5px 0px;
+    }
+    .charts-slogan p{
+        padding:9px 0;
+    }
+    .charts-slogan p span{
+        font-size: 16px;
+    }
+    .charts-differences {
+        margin-top: 12px;
+    }
+    .charts-features{
+        margin-top: 12px;
+    }
+    .charts-features .row {
+        margin-top: 0px;
+    }
+    .charts-details .charts-details-btn .btn {
+        font-size: 16px;
+        line-height: 15px;
+        height: 35px;
+    }
+    .description-bold{
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .description-middle{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .feature-text .description-light-small{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .description-bold-small{
+        font-size: 14px;
+    }
+    .description-light-small-p{
+        line-height: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .charts-slogan p span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .description-light-small{
+        font-size: 12px;
+    }
+    .description-bold-small{
+        font-size: 14px;
+    }
+    .charts-slogan .container p {
+        line-height: 20px;
     }
 }
    
