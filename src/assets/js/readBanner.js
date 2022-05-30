@@ -1018,7 +1018,7 @@
                       }
                     },
                     "style": {
-                      "background-image": "https://narchart.github.io/editor/background/car_background4.jpg"
+                      "background-image": {"url":"https://narchart.github.io/editor/background/car_background4.jpg"}
                     }
                   },
                   {
