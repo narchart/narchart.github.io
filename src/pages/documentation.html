@@ -28,7 +28,7 @@
                 min-width: 200px;
                 max-width: 1280px;
                 /* margin: 0 auto; */
-                padding-left: 40px;
+                padding-left: 20px;
                 font-family: Helvetica;
                 line-height: 25px;
             }
@@ -72,7 +72,7 @@
                 font-size: 12px;
                 color: #616670;
                 font-weight: 400;
-                line-height: 35px;
+                line-height: 30px;
                 text-decoration: none;
             }
             #guide > ul > li > ul > li > ul > li > a:hover{
@@ -89,7 +89,7 @@
                 font-size: 12px;
                 color: #616670;
                 font-weight: 400;
-                line-height: 35px;
+                line-height: 30px;
                 text-decoration: none;
             }
             #guide > ul > li > ul > li > ul > li > ul > li > a:hover{
@@ -125,14 +125,14 @@
                 border: 1px solid #D0D7DE;
             }
             #content > table > tbody > tr > td{
-                padding:15px;
+                padding:10px;
             }
             #content > table > thead > tr > th{
                 padding:10px;
             }
             #content > pre{
                 background-color: #F6F8FA ;
-                line-height: 45px;
+                line-height: 25px;
                 font-family: SFMono-Regular;
                 font-size: 14px;
                 color: #000000;
@@ -144,7 +144,7 @@
                 font-size: 28px;
                 color: #000000;
                 font-weight: 700;
-                margin-top: 50px;
+                margin-top: 28px;
             }
             #content > h3{
                 font-family: Helvetica;
@@ -171,8 +171,16 @@
                 font-weight: 400;
             }
             
-            @media (max-width:990px){
-                
+            @media (max-width: 1110px){
+                #largediv {
+                    margin: 0 20px;
+                }
+            }
+
+            @media (max-width:1020px){
+                #largediv {
+                    margin: 0px;
+                }
                 #guide{
                     display: none;
                 }
@@ -180,7 +188,14 @@
                     padding: 0px 20px;
                     width: 100%;
                 }
+                #content > pre{
+                    line-height: 20px;
+                }
+                #content > table > tbody > tr > td {
+                    padding: 5px;
+                }
             }
+
         </style>
         
       </head>

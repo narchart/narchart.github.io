@@ -642,10 +642,10 @@ img {
 }
 .description-light-small{
     font-family: Helvetica;
-    font-size: 17px;
+    font-size: 14px;
     color: #000000;
     text-align: justify;
-    line-height: 36px;
+    line-height: 25px;
     font-weight: 400;
 }
 .charts-details{
