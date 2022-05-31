@@ -2762,3 +2762,9 @@ ul.slicknav_nav li a:hover {
     /* margin-left: 30px; */
     margin-bottom: 110px;
 }
+
+@media (max-width: 381px) {
+    .charts-gallery > i{
+        width: 0px;
+    }
+}
