@@ -1632,7 +1632,6 @@
                   "font-style": "italic",
                   "background-color": "#79AF00",
                   "position": "top-left",
-                  "text": "Fun facts about dead startups in China!"
                 }
               },
              {
@@ -1642,7 +1641,6 @@
                   "font-color": "black",
                   "font-size": 15,
                   "position": "top-left",
-                  "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies that go public have the longest mean survival time."
                 }
               },
               {
@@ -1741,7 +1739,7 @@
               },
               {
                 "add":"title",
-                "text":"Globalcarsalesbykeybrands,2007-2011",
+                "text":"Global car sales by key brands, 2007-2011",
                 "style":{
                   "position":"top-left",
                   "font-family":"Calibri",
@@ -1752,19 +1750,17 @@
                   "border-width":2,
                   "border-color":"orange",
                   "background-color":"#151D67",
-                  "text":"Globalcarsalesbykeybrands,2007-2011"
                 }
               },
               {
                 "add":"caption",
-                "text":"Fordhasthehighestproportionofsalesamongallthebrands.",
+                "text":"Ford has the highest proportion of sales among all the brands.",
                 "style":{
                   "font-family":"Calibri",
                   "font-size":20,
                   "font-weight":"bold",
                   "font-color":"black",
                   "position":"top-left",
-                  "text":"Fordhasthehighestproportionofsalesamongallthebrands."
                 }
               },
               {
