@@ -2714,6 +2714,9 @@ ul.slicknav_nav li a:hover {
     .charts-details .charts-details-btn .btn1{
         margin-bottom: -1px;
     }
+    .charts-details .charts-details-btn .btn2{
+        line-height: 11px;
+    }
     .description-bold{
         font-size: 16px;
         line-height: 10px;
