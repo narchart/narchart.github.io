@@ -1,21 +1,21 @@
 (function($){
-    var selectType=null
-    $('.container input').click(function(e){
-        selectType = e.target.getAttribute("value");
-        let container = document.getElementsByClassName("imageContainer");
-        for(let i = 0;i<container.length;i++){
-            if(selectType==="animation"){
-                container[i].getElementsByTagName("button")[0].style.display="none"
-                container[i].getElementsByTagName("button")[1].style.display="block"
-            }else{
-                container[i].getElementsByTagName("button")[0].style.display="block"
-                container[i].getElementsByTagName("button")[1].style.display="none"
-            }
-        }
-    })
+    // var selectType=null
+    // $('.container input').click(function(e){
+    //     selectType = e.target.getAttribute("value");
+    //     let container = document.getElementsByClassName("imageContainer");
+    //     for(let i = 0;i<container.length;i++){
+    //         if(selectType==="animation"){
+    //             container[i].getElementsByTagName("button")[0].style.display="none"
+    //             container[i].getElementsByTagName("button")[1].style.display="block"
+    //         }else{
+    //             container[i].getElementsByTagName("button")[0].style.display="block"
+    //             container[i].getElementsByTagName("button")[1].style.display="none"
+    //         }
+    //     }
+    // })
     
     $('.imageContainer button').click(function(e){
-
+        let selectType = e.target.getAttribute("id")
         let getValue = e.target.getAttribute("value")
         let result = getValue.replace(/[^0-9]/ig,"")
         let dataStatic = [
