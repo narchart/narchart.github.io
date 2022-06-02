@@ -2531,19 +2531,22 @@ ul.slicknav_nav li a:hover {
 } */
 
 .imageContainer{
+    position: relative;
     width: 160px;
     height: 160px;
     border: 1px solid rgba(192,200,201,1);
-    transition:transform 0.6s;
+    /* transition:transform 0.6s; */
     cursor: pointer;
 }
-.imageContainer:hover{
+
+/* .imageContainer:hover{
+    position: relative;
     width: 160px;
     height: 160px;
-    border: 4px solid #65a1c6;
-    transform: scale(1.05);
+    border: 4px solid #65a1c6; 
+    transform: scale(1.05); 
     cursor: pointer;
-}
+} */
 .chart-description-classify{
     font-family: "Helvetica";
     font-size: 16px;
@@ -2771,3 +2774,74 @@ ul.slicknav_nav li a:hover {
         width: 0px;
     }
 }
+
+.radioLable{
+    font-size: 14px;
+    margin-left: 6px;
+    line-height: 14px;
+}
+.radioLable:hover{
+   color: #6399bc;
+}
+.radioButton{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+}
+
+.radioButton:checked {
+    border: 5px solid rgb(99, 153, 188);
+  }
+
+.imageContainer .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    background: #373737c2;
+    transition: 1.6s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #ffffff;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:default;
+   
+   
+}
+.imageContainer .mask:hover{
+    box-shadow: inset 0 0 0 42px rgb(0 0 0 / 37%), inset 0 0 0 160px rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 20%);   
+    opacity: 1;
+    transform: scale(1); 
+}
+.imageContainer .mask button{
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0);
+    border:2px solid white;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-family: Helvetica;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+/* .imageContainer .mask button:hover{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: 500;
+    color: black;
+} */

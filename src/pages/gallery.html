@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WMQDDZK');</script>
-       
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WMQDDZK');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="narrative chart" content="narrative chart presentation" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +26,7 @@
     <meta name="keywords" content="data storytelling,narrative visualization,叙事可视化，charting library,图表库，data story,数据故事，big data,大数据可视化,visualization,信息可视化,infovis,information visualization,data visualization,visual analysis,可视化分析，visual analytics,graph,text,document">
     <meta name="description" content="Narrative Chart, an open-source visualization library specialized for authoring charts that facilitate data storytelling with a high-level action-driven grammar.">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Play" rel="stylesheet">
-    <link href="../../public/main.css" rel="stylesheet" >
+    <link href="../../public/main.css" rel="stylesheet">
     <title>Narrative Chart</title>
     <link rel="shortcut icon" href="../../public/favicon.ico">
 </head>
@@ -38,210 +50,476 @@
                             <li><a href="./documentation.html">Documentation</a><span></span></li>
                             <li><a href="#" class="active">Gallery</a><span></span></li>
                             <li><a href="https://github.com/narchart/narrative-chart" target="_blank">GitHub</a><span></span></li>
-                            <li><a href="./about.html" >About</a><span></span></li>
+                            <li><a href="./about.html">About</a><span></span></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-   <!-- GALLERY -->
-   <div class="information">
+    <!-- GALLERY -->
+    <div class="information">
+
         <div class="container">
-        <li class="chart-description-classify">Bar Chart</li>
-                <div class="charts-gallery">
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart0.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart1.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart2.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart3.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart4.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart5.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart6.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart7.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart8.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/barchart9.gif" alt=""></div> 
-                    </div>
-                    <i></i><i></i><i></i><i></i><i></i>
+            <p className="galary-word" style="font-family: Helvetica; font-size:14px; margin-bottom:5px">Switch the button to view static/animated examples.</p>
+            <div style="display: flex; ">
+                <div>
+                    <input class="radioButton" type="radio" id="static" name="chartType" value="static" checked style="vertical-align:middle">
+                    <label class="radioLable" for="static">Static</label>
                 </div>
+                <div style="margin-left: 20px;">
+                    <input class="radioButton" type="radio" id="animation" name="chartType" value="animation" style="vertical-align:middle">
+                    <label class="radioLable" for="animation">Animated</label>
+                </div>
+            </div>
+            <hr style="margin-bottom: 20px;" />
 
-                <div class="gallery-placeholder"></div>
-                <li class="chart-description-classify">Line Chart</li>
-                <div class="charts-gallery">
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart10.gif" alt=""></div> 
+            <li class="chart-description-classify">Bar Chart</li>
+            <div class="charts-gallery">
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart0.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example0">Static</button>
+                            <button style="display: none;" value="example0">Animated</button>
+                        </div>
                     </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart11.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart12.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart13.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart14.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart15.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart16.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart17.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/linechart18.gif" alt=""></div> 
-                    </div>
-                    <i></i><i></i><i></i><i></i><i></i>
-                </div>
 
-                <div class="gallery-placeholder"></div>
-                <li class="chart-description-classify">Pie Chart</li>
-                <div class="charts-gallery">
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart19.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart20.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart21.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart22.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart23.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart24.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart25.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart26.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart27.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/piechart28.gif" alt=""></div> 
-                    </div>
-                    <i></i><i></i><i></i><i></i><i></i>
                 </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart1.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example1">Static</button>
+                            <button style="display: none;" value="example1">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart2.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example2">Static</button>
+                            <button style="display: none;" value="example2">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart3.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example3">Static</button>
+                            <button style="display: none;" value="example3">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart4.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example4">Static</button>
+                            <button style="display: none;" value="example4">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart5.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example5">Static</button>
+                            <button style="display: none;" value="example5">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart6.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example6">Static</button>
+                            <button style="display: none;" value="example6">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart7.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example7">Static</button>
+                            <button style="display: none;" value="example7">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart8.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example8">Static</button>
+                            <button style="display: none;" value="example8">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/barchart9.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example9">Static</button>
+                            <button style="display: none;" value="example9">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
 
-                <div class="gallery-placeholder"></div>
-                <li class="chart-description-classify">Scatterplot</li>
-                <div class="charts-gallery">
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot29.gif" alt=""></div> 
+            <div class="gallery-placeholder"></div>
+            <li class="chart-description-classify">Line Chart</li>
+            <div class="charts-gallery">
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart10.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example10">Static</button>
+                            <button style="display: none;" value="example10">Animated</button>
+                        </div>
                     </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot30.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot31.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot32.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot33.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot34.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot35.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot36.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot37.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/scatterplot38.gif" alt=""></div> 
-                    </div>
-                    <i></i><i></i><i></i><i></i><i></i>
                 </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart11.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example11">Static</button>
+                            <button style="display: none;" value="example11">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart12.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example12">Static</button>
+                            <button style="display: none;" value="example12">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart13.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example13">Static</button>
+                            <button style="display: none;" value="example13">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart14.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example14">Static</button>
+                            <button style="display: none;" value="example14">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart15.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example15">Static</button>
+                            <button style="display: none;" value="example15">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart16.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example16">Static</button>
+                            <button style="display: none;" value="example16">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart17.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example17">Static</button>
+                            <button style="display: none;" value="example17">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/linechart18.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example18">Static</button>
+                            <button style="display: none;" value="example18">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
 
-                <div class="gallery-placeholder"></div>     
-                <li class="chart-description-classify">Unit</li>
-                <div class="charts-gallery">
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit39.gif" alt=""></div> 
+            <div class="gallery-placeholder"></div>
+            <li class="chart-description-classify">Pie Chart</li>
+            <div class="charts-gallery">
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart19.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example19">Static</button>
+                            <button style="display: none;" value="example19">Animated</button>
+                        </div>
                     </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit40.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit41.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit42.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit43.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit44.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit45.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit46.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit47.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit48.gif" alt=""></div> 
-                    </div>
-                    <div class="chart-gallery-grid">
-                        <div class="imageContainer"><img src="../assets/images/gallery/unit49.gif" alt="" ></div> 
-                    </div>
-                    <i></i><i></i><i></i><i></i><i></i>
                 </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart20.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example20">Static</button>
+                            <button style="display: none;" value="example20">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart21.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example21">Static</button>
+                            <button style="display: none;" value="example21">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart22.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example22">Static</button>
+                            <button style="display: none;" value="example22">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart23.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example23">Static</button>
+                            <button style="display: none;" value="example23">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart24.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example24">Static</button>
+                            <button style="display: none;" value="example24">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart25.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example25">Static</button>
+                            <button style="display: none;" value="example25">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart26.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example26">Static</button>
+                            <button style="display: none;" value="example26">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart27.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example27">Static</button>
+                            <button style="display: none;" value="example27">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/piechart28.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example28">Static</button>
+                            <button style="display: none;" value="example28">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
+
+            <div class="gallery-placeholder"></div>
+            <li class="chart-description-classify">Scatterplot</li>
+            <div class="charts-gallery">
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot29.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example29">Static</button>
+                            <button style="display: none;" value="example29">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot30.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example30">Static</button>
+                            <button style="display: none;" value="example30">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot31.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example31">Static</button>
+                            <button style="display: none;" value="example31">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot32.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example32">Static</button>
+                            <button style="display: none;" value="example32">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot33.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example33">Static</button>
+                            <button style="display: none;" value="example33">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot34.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example34">Static</button>
+                            <button style="display: none;" value="example34">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot35.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example35">Static</button>
+                            <button style="display: none;" value="example35">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot36.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example36">Static</button>
+                            <button style="display: none;" value="example36">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot37.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example37">Static</button>
+                            <button style="display: none;" value="example37">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/scatterplot38.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example38">Static</button>
+                            <button style="display: none;" value="example38">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
+
+            <div class="gallery-placeholder"></div>
+            <li class="chart-description-classify">Unit</li>
+            <div class="charts-gallery">
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit39.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example39">Static</button>
+                            <button style="display: none;" value="example39">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit40.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example40">Static</button>
+                            <button style="display: none;" value="example40">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit41.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example41">Static</button>
+                            <button style="display: none;" value="example41">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit42.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example42">Static</button>
+                            <button style="display: none;" value="example42">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit43.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example43">Static</button>
+                            <button style="display: none;" value="example43">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit44.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example44">Static</button>
+                            <button style="display: none;" value="example44">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit45.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example45">Static</button>
+                            <button style="display: none;" value="example45">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit46.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example46">Static</button>
+                            <button style="display: none;" value="example46">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit47.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example47">Static</button>
+                            <button style="display: none;" value="example47">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit48.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example48">Static</button>
+                            <button style="display: none;" value="example48">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-gallery-grid">
+                    <div class="imageContainer"><img src="../assets/images/gallery/unit49.gif" alt="">
+                        <div class="mask">
+                            <button style="display: block;" value="example49">Static</button>
+                            <button style="display: none;" value="example49">Animated</button>
+                        </div>
+                    </div>
+                </div>
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
         </div>
-    
+
     </div>
 
     <div class="footer-bottom-area">
         <hr/>
         <div class="copy-right-text">
-            <p>Copyright © 2022 Intelligent Big Data Visualization Lab All Rights Reserved</p >
+            <p>Copyright © 2022 Intelligent Big Data Visualization Lab All Rights Reserved</p>
         </div>
     </div>
 
-<script src="../assets/js/jquery.js"></script>
-<script src="../assets/js/jquery.slicknav.js"></script>
-<script src="../assets/js/main.js"></script>
-<script src="../assets/js/lz-string.js"></script>
-<script src="../assets/js/readGallery.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/jquery.slicknav.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/lz-string.js"></script>
+    <script src="../assets/js/readGallery.js"></script>
 
 </body>
+
 </html>
