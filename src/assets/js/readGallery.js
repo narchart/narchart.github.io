@@ -8023,8 +8023,7 @@
                           "text": "Fun facts about dead startups!"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -8038,8 +8037,7 @@
                           "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies that go public have the longest mean survival time."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -8071,8 +8069,7 @@
                           }
                         ],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -8086,8 +8083,7 @@
                         ],
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -8504,8 +8500,7 @@
                           "text": "Dead Startups in China"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -8520,8 +8515,7 @@
                           "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies from the new industry have the longest mean survival time."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -8553,8 +8547,7 @@
                         ],
                         "style": {},
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -8571,8 +8564,7 @@
                         },
                         "animation": {
                           "type":"fly",
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -8672,8 +8664,7 @@
                           "text": "Dead Startups in China"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -8689,8 +8680,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 2000,
-                          "delay": 1000
+                          "duration": 2000
                         }
                       },
                       {
@@ -8725,8 +8715,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -8830,8 +8819,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1500,
-                          "delay": 0
+                          "duration": 1500
                         }
                       },
                       {
@@ -8846,8 +8834,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1500,
-                          "delay": 500
+                          "duration": 1500
                         }
                       },
                       {
@@ -8874,8 +8861,7 @@
                         "channel": "color",
                         "field": "location",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -8897,8 +8883,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 500,
-                          "delay": 4000
+                          "duration": 500
                         }
                       }
                     ]
@@ -9171,8 +9156,7 @@
                           "text": "Dead Startups in Different Industries"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -9187,8 +9171,7 @@
                           "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies from the new industry have the longest mean survival time."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -9342,8 +9325,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1500,
-                          "delay": 0
+                          "duration": 1500
                         }
                       },
                       {
@@ -9359,8 +9341,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1500,
-                          "delay": 1000
+                          "duration": 1500
                         }
                       },
                       {
@@ -9392,8 +9373,7 @@
                         ],
                         "style": {},
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -9408,8 +9388,7 @@
                         "style": {},
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -9514,8 +9493,7 @@
                           "text": "COVID-19: Confirmed Cases"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -9529,8 +9507,7 @@
                           "text": "During March 2020, the number of confirmed cases reached its peak on March 19. Data source: WHO."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -9567,8 +9544,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -9836,8 +9812,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -9853,8 +9828,7 @@
                           "text": "During March 2020, the number of confirmed cases reached its peak on March 19. Data source: WHO."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -9867,8 +9841,7 @@
                           "height": 130
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -9903,8 +9876,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -10007,8 +9979,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -10024,8 +9995,7 @@
                           "text": "During March 2020, the number of recovered cases reached its peak on March 15. Data source: WHO."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -10051,8 +10021,7 @@
                         "method": "desaturate",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -10066,8 +10035,7 @@
                         ],
                         "style": {},
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -10171,8 +10139,7 @@
                           "text": "Recovered Cases of COVID-19"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -10189,8 +10156,7 @@
                           "text": "During March 2020, the number of recovered cases reached its peak on March 15. Data source: WHO."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -10225,8 +10191,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -10383,8 +10348,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 600,
-                          "delay": 3000
+                          "duration": 600
                         }
                       }
                     ]
@@ -10491,8 +10455,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1500,
-                          "delay": 0
+                          "duration": 1500
                         }
                       },
                       {
@@ -10509,8 +10472,7 @@
                         },
                         "animation": {
                           "type":"fade",
-                          "duration": 1500,
-                          "delay": 500
+                          "duration": 1500
                         }
                       },
                       {
@@ -10541,8 +10503,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -10650,8 +10611,7 @@
                           "text": "The Deaths of COVID-19 in March 2020"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -10667,8 +10627,7 @@
                           "text": "Acorrding to the data from WHO, a growing number of people died of COVID-19 during this month worldwide. R.I.P."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -10699,8 +10658,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -10933,8 +10891,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -10950,8 +10907,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -10959,8 +10915,7 @@
                         "channel": "theta",
                         "field": "Sales",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -10972,8 +10927,7 @@
                           "color": "black"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                      
@@ -11078,8 +11032,7 @@
                           "offset-y": -20
                         },
                          "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -11168,8 +11121,7 @@
                           "text": "Global car sales by key brands, 2007-2011"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -11185,8 +11137,7 @@
                           "text": "Ford has the highest proportion of sales among all the brands."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11194,8 +11145,7 @@
                         "channel": "theta",
                         "field": "Sales",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       
@@ -11226,8 +11176,7 @@
                           "color": "orange"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -11314,8 +11263,7 @@
                           "text": "Global car sales by key brands, 2007-2011"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -11333,8 +11281,7 @@
                           "text": "Ford has the highest proportion of sales among all the brands."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11342,8 +11289,7 @@
                         "channel": "theta",
                         "field": "Sales",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11374,8 +11320,7 @@
                           "font-family": "Georgia"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11388,8 +11333,7 @@
                           "height": 90
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -11482,8 +11426,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -11502,8 +11445,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 2000,
-                          "delay": 1000
+                          "duration": 2000
                         }
                       },
                       {
@@ -11511,8 +11453,7 @@
                         "channel": "theta",
                         "field": "Sales",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11528,8 +11469,7 @@
                           "color": "#1781b5"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11545,8 +11485,7 @@
                           "color": "black"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -11565,8 +11504,7 @@
                           "font-weight": "bold"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       }
                       
@@ -12103,8 +12041,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -12120,8 +12057,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12129,8 +12065,7 @@
                         "channel": "theta",
                         "field": "Sales",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12146,8 +12081,7 @@
                           "color": "#013183"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12165,8 +12099,7 @@
                           "text": "Ford"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -12248,8 +12181,7 @@
                           "text": "Car Sales Data! 😄"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -12264,8 +12196,7 @@
                           "text": "Do you know which 3 car brands are the most popular? Here is the data about global car sales by key brands, from 2007 to 2011"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12273,8 +12204,7 @@
                         "channel": "theta",
                         "field": "Sales",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12282,8 +12212,7 @@
                         "channel": "color",
                         "field": "Brand",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12317,8 +12246,7 @@
                           "font-size": 20
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12352,8 +12280,7 @@
                           "font-size": 20
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 7000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12386,8 +12313,7 @@
                           "font-size": 20
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 9000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -12731,8 +12657,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -12744,8 +12669,7 @@
                           "text": "The most fuel-efficient car can run 4.6 miles on a gallon of gas in the 1980s. "
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12771,8 +12695,7 @@
                         "channel": "color",
                         "field": "Origin",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12786,8 +12709,7 @@
                         ],
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12803,8 +12725,7 @@
                           "color": "#FFF200"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 6000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12817,8 +12738,7 @@
                           "height": 101
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -12935,8 +12855,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -12952,8 +12871,7 @@
                           "text": "The most fuel-efficient car can run 4.6 miles on a gallon of gas in the 1980s. Size encodes acceleration."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12979,8 +12897,7 @@
                         "channel": "size",
                         "field": "Acceleration",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -12988,8 +12905,7 @@
                         "method": "desaturate",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13005,8 +12921,7 @@
                           "color": "#F9CF00"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13023,8 +12938,7 @@
                           "color": "#FF7602"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 6000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -13145,8 +13059,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -13162,8 +13075,7 @@
                           "text": "Pontiac grand prix is the car that had the highest horsepower in the 1980s. Size encodes acceleration."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13189,8 +13101,7 @@
                         "channel": "size",
                         "field": "Acceleration",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13207,8 +13118,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13231,8 +13141,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -13349,8 +13258,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -13366,8 +13274,7 @@
                           "text": "The relationship between horsepower and miles per gallon is negative. Size encodes acceleration. Source: 1983 American Statistical Association Exposition."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13393,8 +13300,7 @@
                         "channel": "size",
                         "field": "Acceleration",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13406,8 +13312,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13420,8 +13325,7 @@
                           "height": 60
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -13540,8 +13444,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -13558,8 +13461,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13585,8 +13487,7 @@
                         "channel": "color",
                         "field": "Origin",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13603,8 +13504,7 @@
                         },
                         "animation": {
                           "type":"fly",
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13621,8 +13521,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13643,8 +13542,7 @@
                           "text": "Car name: buick estate wagon(sw)(1970)"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 6000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -13759,8 +13657,7 @@
                           "text": "Cars in the 1980s: Weight vs Horsepower"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -13776,8 +13673,7 @@
                           "text": "Among all the cars, buick estate wagon (sw) is a special one as it has a high horsepower while being lightweight."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13803,8 +13699,7 @@
                         "method": "fade",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13820,8 +13715,7 @@
                           "color": "#CE5456"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13838,8 +13732,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 6000
+                          "duration": 1000
                         }
                       },
                       {
@@ -13857,8 +13750,7 @@
                           "offset-y": -10
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -13977,8 +13869,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -13994,8 +13885,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14301,8 +14191,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -14318,8 +14207,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14343,8 +14231,7 @@
                         "method": "desaturate",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14360,8 +14247,7 @@
                           "color": "black"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14378,8 +14264,7 @@
                         },
                         "animation": {
                           "type": "wipe",
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -14496,8 +14381,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 1500,
-                          "delay": 0
+                          "duration": 1500
                         }
                       },
                       {
@@ -14512,8 +14396,7 @@
                           "text": "Among all the cars, buick estate wagon (sw) is a special one as it had a high horsepower while being lightweight. Color encodes car origin."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14544,8 +14427,7 @@
                         "method": "fade",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14561,8 +14443,7 @@
                           "color": "yellow"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14579,8 +14460,7 @@
                         },
                         "animation": {
                           "type":"fly",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -14707,8 +14587,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -14720,8 +14599,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14762,8 +14640,7 @@
                           "text": "Grand prix has the highest horsepower"
                         },
                         "animation": {
-                          "duration": 2000,
-                          "delay": 7000
+                          "duration": 2000
                         }
                       }
                     ]
@@ -14890,8 +14767,7 @@
                           "text": "The trend of car production in the 1980s"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -14902,8 +14778,7 @@
                           "text": "The car production is increasing over time. Data source: 1983 American Statistical Association Exposition."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -14925,8 +14800,7 @@
                         "target": [],
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -15034,8 +14908,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -15046,8 +14919,7 @@
                           "text": "Among all the cars produced in the 1980s, Ford f250 is very famous. Color: yellow - USA, green - Europe, orange - Japan."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -15060,8 +14932,7 @@
                           "height": 120
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -15069,8 +14940,7 @@
                         "channel": "color",
                         "field": "Origin",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -15089,8 +14959,7 @@
                           "text": "Ford f250"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -15232,8 +15101,7 @@
                           "text": "Who Produced the Most Cars in the 1980s?"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -15249,8 +15117,7 @@
                           "text": "USA produced the most cars in the 1980s. Data source: 1983 American Statistical Association Exposition."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -15960,8 +15827,7 @@
                           "text": "Comparing the weight of the cars in the 1980s"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -15977,8 +15843,7 @@
                           "text": "The heaviest and the lightest cars were all produced in 1971. Data source: 1983 American Statistical Association Exposition."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -15986,8 +15851,7 @@
                         "channel": "x",
                         "field": "Origin",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -15995,8 +15859,7 @@
                         "channel": "y",
                         "field": "Year",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16004,8 +15867,7 @@
                         "channel": "size",
                         "field": "Weight",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16013,8 +15875,7 @@
                         "method": "desaturate",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16027,8 +15888,7 @@
                           }
                         ],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 6000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16046,8 +15906,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 7000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16060,8 +15919,7 @@
                           }
                         ],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 8000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16079,8 +15937,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 9000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -16223,8 +16080,7 @@
                         },
                         "animation": {
                           "type":"wipe",
-                          "duration": 1000,
-                          "delay": 0
+                          "duration": 1000
                         }
                       },
                       {
@@ -16241,8 +16097,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 2000,
-                          "delay": 1000
+                          "duration": 2000
                         }
                       },
                       {
@@ -16250,8 +16105,7 @@
                         "channel": "x",
                         "field": "Origin",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16259,8 +16113,7 @@
                         "channel": "y",
                         "field": "Year",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16268,8 +16121,7 @@
                         "channel": "size",
                         "field": "Weight",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16277,8 +16129,7 @@
                         "method": "desaturate",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 5000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16294,8 +16145,7 @@
                           "color": "darksalmon"
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 6000
+                          "duration": 1000
                         }
                       }
                     ]
@@ -16438,8 +16288,7 @@
                         },
                         "animation": {
                           "type":"typewritter",
-                          "duration": 2000,
-                          "delay": 0
+                          "duration": 2000
                         }
                       },
                       {
@@ -16455,8 +16304,7 @@
                           "text": "Data source: 1983 American Statistical Association Exposition. The circle size encodes the average weight of the cars. U.S. cars are represented as icons."
                         },
                         "animation": {
-                          "duration": 1000,
-                          "delay": 1000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16464,8 +16312,7 @@
                         "channel": "x",
                         "field": "Year",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 2000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16473,8 +16320,7 @@
                         "channel": "size",
                         "field": "Weight",
                         "animation": {
-                          "duration": 1000,
-                          "delay": 3000
+                          "duration": 1000
                         }
                       },
                       {
@@ -16482,8 +16328,7 @@
                         "method": "desaturate",
                         "target": [],
                         "animation": {
-                          "duration": 1000,
-                          "delay": 4000
+                          "duration": 1000
                         }
                       },
                       
