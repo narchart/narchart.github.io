@@ -110,8 +110,7 @@
                       "font-color": "#15777C",
                       "font-style": "italic",
                       "border-width": 2,
-                      "border-color": "#15777C",
-                      "text": "Technical Specs of Cars in the 1980s"
+                      "border-color": "#15777C"
                     },
                     "animation": {
                       "type": "wipe",
@@ -127,8 +126,7 @@
                       "font-weight": "regular",
                       "font-color": "#364A45",
                       "position": "left",
-                      "top-padding": 0,
-                      "text": "Pontiac grand prix is the car that had the highest horsepower in the 1980s. Size encodes acceleration."
+                      "top-padding": 0
                     },
                     "animation": {
                       "duration": 1000
@@ -307,8 +305,7 @@
                       "font-size": 24,
                       "font-color": "white",
                       "font-style": "italic",
-                      "background-color": "#FE268E",
-                      "text": "Cars in the 1980s: Weight vs Horsepower"
+                      "background-color": "#FE268E"
                     },
                     "animation": {
                       "type": "wipe",
@@ -324,8 +321,7 @@
                       "font-style": "italic",
                       "font-weight": "regular",
                       "font-color": "#364A45",
-                      "position": "left",
-                      "text": "Buick estate wagon (sw) is a special car that has a high horsepower while being lightweight. Color encodes the origin of the cars."
+                      "position": "left"
                     },
                     "animation": {
                       "type": "wipe",
@@ -484,8 +480,7 @@
                       "position": "top-center",
                       "font-family": "Comic Sans MS",
                       "font-weight": "bold",
-                      "font-size": 34,
-                      "text": "Car Sales Data! 😄"
+                      "font-size": 34
                     },
                     "animation": {
                       "duration": 1000
@@ -499,8 +494,7 @@
                       "font-size": 17,
                       "font-weight": "bold",
                       "font-color": "black",
-                      "position": "top-center",
-                      "text": "Do you know which 3 car brands are the most popular? Here is the data about global car sales by key brands, from 2007 to 2011"
+                      "position": "top-center"
                     },
                     "animation": {
                       "duration": 1000
@@ -699,8 +693,7 @@
                       "font-color": "black",
                       "font-size": 34,
                       "font-style": "italic",
-                      "background-color": "white",
-                      "text": "Global car sales by key brands, 2007-2011"
+                      "background-color": "white"
                     },
                     "animation": {
                       "duration": 1000
@@ -715,8 +708,7 @@
                       "font-weight": "bold",
                       "font-color": "black",
                       "position": "top-left",
-                      "background-color": "white",
-                      "text": "3 brands accounted for about a half of all the sales."
+                      "background-color": "white"
                     },
                     "animation": {
                       "duration": 1000
@@ -1448,8 +1440,7 @@
                   "position": "top-center",
                   "background-color": "",
                   "background-image": "https://narchart.github.io/editor/background/line_banner3.png",
-                  "top-padding": 0,
-                  "text": "Recovered Cases of COVID-19"
+                  "top-padding": 0
                 },
                 "animation": {
                     "duration": 1500
@@ -1465,8 +1456,7 @@
                   "font-weight": "bold",
                   "font-size": 16,
                   "position": "top-center",
-                  "top-padding": 10,
-                  "text": "During March 2020, the number of recovered cases reached its peak on March 15. Data source: WHO."
+                  "top-padding": 10
                 },
                 "animation": {
                     "duration": 1500

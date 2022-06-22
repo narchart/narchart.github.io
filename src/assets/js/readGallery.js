@@ -2665,8 +2665,7 @@
                     "font-style": "italic",
                     "border-width": 2,
                     "border-color": "orange",
-                    "background-color": "black",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "background-color": "black"
                   }
                 },
                 {
@@ -2677,8 +2676,7 @@
                     "font-size": 20,
                     "font-weight": "bold",
                     "font-color": "black",
-                    "position": "top-left",
-                    "text": "Ford has the highest proportion of sales among all the brands."
+                    "position": "top-left"
                   }
                 },
                 {
@@ -2790,8 +2788,7 @@
                     "font-color": "#FCCF00",
                     "font-style": "italic",
                     "divide-line-width": 2,
-                    "divide-line-color": "#FCCF00",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "divide-line-color": "#FCCF00"
                   }
                 },
                 {
@@ -2802,8 +2799,7 @@
                     "font-size": 20,
                     "font-weight": "regular",
                     "font-color": "white",
-                    "position": "top-left",
-                    "text": "Ford has the highest proportion of sales among all the brands."
+                    "position": "top-left"
                   }
                 },
                 {
@@ -2996,8 +2992,7 @@
                     "font-size": 34,
                     "font-style": "italic",
                     "top-padding": 20,
-                    "background-color": "white",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "background-color": "white"
                   }
                 },
                 {
@@ -3009,8 +3004,7 @@
                     "font-weight": "bold",
                     "font-color": "black",
                     "position": "top-left",
-                    "top-padding": 20,
-                    "text": "Ford has the highest proportion of sales among all the brands."
+                    "top-padding": 20
                   }
                 },
                 {
@@ -3125,8 +3119,7 @@
                     "font-size": 34,
                     "font-style": "italic",
                     "top-padding": 20,
-                    "background-color": "antiquewhite",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "background-color": "antiquewhite"
                   }
                 },
                 {
@@ -3140,8 +3133,7 @@
                     "font-size": 18,
                     "font-style": "italic",
                     "top-padding": 20,
-                    "background-color": "antiquewhite",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "background-color": "antiquewhite"
                   }
                 },
                 {
@@ -3272,8 +3264,7 @@
                     "font-size": 34,
                     "font-style": "italic",
                     "divide-line-width": 3,
-                    "divide-line-color": "#1781b5",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "divide-line-color": "#1781b5"
                   }
                 },
                 {
@@ -3287,8 +3278,7 @@
                     "font-size": 18,
                     "font-style": "italic",
                     "top-padding": 10,
-                    "background-color": "antiquewhite",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "background-color": "antiquewhite"
                   }
                 },
             
@@ -3421,8 +3411,7 @@
                     "font-size": 34,
                     "font-style": "italic",
                     "divide-line-width": 3,
-                    "divide-line-color": "white",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "divide-line-color": "white"
                   }
                 },
                 {
@@ -3434,8 +3423,7 @@
                     "font-weight": "bold",
                     "font-size": 20,
                     "font-style": "italic",
-                    "top-padding": 20,
-                    "text": "3 brands accounted for about a half of all the sales."
+                    "top-padding": 20
                   }
                 },
                 {
@@ -3619,8 +3607,7 @@
                     "font-family": "Times",
                     "font-weight": "bold",
                     "font-size": 34,
-                    "font-style": "italic",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "font-style": "italic"
                   }
                 },
                 {
@@ -3632,8 +3619,7 @@
                     "font-weight": "bold",
                     "font-size": 20,
                     "font-style": "italic",
-                    "top-padding": 10,
-                    "text": "3 brands accounted for about a half of all the sales."
+                    "top-padding": 10
                   }
                 },
                 {
@@ -3810,8 +3796,7 @@
                     "font-family": "Times",
                     "font-weight": "bold",
                     "font-size": 34,
-                    "font-style": "italic",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "font-style": "italic"
                   }
                 },
                 {
@@ -3822,8 +3807,7 @@
                     "font-family": "Times",
                     "font-weight": "bold",
                     "font-size": 20,
-                    "font-style": "italic",
-                    "text": "Ford accounted for about 30% of all the sales."
+                    "font-style": "italic"
                   }
                 },
                 {
@@ -4113,8 +4097,7 @@
                     "font-color": "black",
                     "font-size": 34,
                     "font-style": "italic",
-                    "background-color": "white",
-                    "text": "Global car sales by key brands, 2007-2011"
+                    "background-color": "white"
                   }
                 },
                 {
@@ -4126,8 +4109,7 @@
                     "font-weight": "bold",
                     "font-color": "black",
                     "position": "top-left",
-                    "background-color": "white",
-                    "text": "3 brands accounted for about a half of all the sales."
+                    "background-color": "white"
                   }
                 },
                 {
@@ -6673,8 +6655,7 @@
                     "border-color": "orange",
                     "position": "top-center",
                     "background-image": "https://narchart.github.io/editor/background/car_banner.png",
-                    "top-padding": 10,
-                    "text": "Who Produced the Most Cars?"
+                    "top-padding": 10
                   }
                 },
                 {
@@ -6686,8 +6667,7 @@
                     "font-weight": "bold",
                     "font-size": 18,
                     "position": "top-left",
-                    "top-padding": 15,
-                    "text": "According to the data analysis, USA produced the most cars in 1982. Data source: 1983 American Statistical Association Exposition."
+                    "top-padding": 15
                   }
                 },
                 {
@@ -8019,8 +7999,7 @@
                           "font-family": "Georgia",
                           "font-style": "italic",
                           "position": "top-left",
-                          "background-image": "https://narchart.github.io/editor/background/company_banner.png",
-                          "text": "Fun facts about dead startups!"
+                          "background-image": "https://narchart.github.io/editor/background/company_banner.png"
                         },
                         "animation": {
                           "duration": 1000
@@ -8033,8 +8012,7 @@
                           "font-color": "#364A45",
                           "font-size": 15,
                           "position": "top-left",
-                          "top-padding": 10,
-                          "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies that go public have the longest mean survival time."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -8496,8 +8474,7 @@
                           "font-family": "Georgia",
                           "font-weight": "bold",
                           "background-image": "https://narchart.github.io/editor/background/company_banner2.png",
-                          "position": "top-center",
-                          "text": "Dead Startups in China"
+                          "position": "top-center"
                         },
                         "animation": {
                           "duration": 1000
@@ -8511,8 +8488,7 @@
                           "font-weight": "bold",
                           "font-size": 14,
                           "position": "top-left",
-                          "top-padding": 10,
-                          "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies from the new industry have the longest mean survival time."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -8660,8 +8636,7 @@
                           "font-family": "Georgia",
                           "font-weight": "bold",
                           "background-image": "https://narchart.github.io/editor/background/company_banner3.png",
-                          "position": "top-center",
-                          "text": "Dead Startups in China"
+                          "position": "top-center"
                         },
                         "animation": {
                           "duration": 1000
@@ -8675,8 +8650,7 @@
                           "font-weight": "bold",
                           "font-size": 14,
                           "position": "top-left",
-                          "top-padding": 5,
-                          "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies from the new industry have the longest mean survival time."
+                          "top-padding": 5
                         },
                         "animation": {
                           "type":"typewritter",
@@ -8814,8 +8788,7 @@
                           "font-size": 36,
                           "font-family": "Times New Roman",
                           "font-weight": "bold",
-                          "position": "top-center",
-                          "text": "Dead Startups in China, 2010-2019"
+                          "position": "top-center"
                         },
                         "animation": {
                           "type":"typewritter",
@@ -8829,8 +8802,7 @@
                           "font-color": "white",
                           "font-family": "Times New Roman",
                           "font-size": 18,
-                          "position": "top-center",
-                          "text": "Among all the startups, those from the agricultural industry have the lowest mean survival time. Color encodes location. Data source: itjuzi.com."
+                          "position": "top-center"
                         },
                         "animation": {
                           "type":"typewritter",
@@ -9152,8 +9124,7 @@
                           "font-weight": "bold",
                           "divide-line-width": 1,
                           "divide-line-color": "yellow",
-                          "position": "top-center",
-                          "text": "Dead Startups in Different Industries"
+                          "position": "top-center"
                         },
                         "animation": {
                           "duration": 1000
@@ -9167,8 +9138,7 @@
                           "font-weight": "bold",
                           "font-family": "Times New Roman",
                           "font-size": 16,
-                          "position": "top-left",
-                          "text": "We collected data from itjuzi.com and analyzed the startups in China died between 2010 and 2019. Companies from the new industry have the longest mean survival time."
+                          "position": "top-left"
                         },
                         "animation": {
                           "duration": 1000
@@ -9320,8 +9290,7 @@
                           "border-width": 0,
                           "position": "top-left",
                           "background-color": "#3C3C3C",
-                          "top-padding": 0,
-                          "text": "COVID-19: Confirmed Cases"
+                          "top-padding": 0
                         },
                         "animation": {
                           "type":"typewritter",
@@ -9336,8 +9305,7 @@
                           "font-family": "Times New Roman",
                           "font-weight": "bold",
                           "font-size": 18,
-                          "position": "top-left",
-                          "text": "During March 2020, the number of confirmed cases reached its peak on March 19. Data source: WHO."
+                          "position": "top-left"
                         },
                         "animation": {
                           "type":"typewritter",
@@ -9489,8 +9457,7 @@
                           "border-width": 0,
                           "position": "top-left",
                           "background-color": "",
-                          "top-padding": 0,
-                          "text": "COVID-19: Confirmed Cases"
+                          "top-padding": 0
                         },
                         "animation": {
                           "duration": 1000
@@ -9503,8 +9470,7 @@
                           "font-color": "black",
                           "font-family": "Arial",
                           "font-size": 18,
-                          "position": "top-left",
-                          "text": "During March 2020, the number of confirmed cases reached its peak on March 19. Data source: WHO."
+                          "position": "top-left"
                         },
                         "animation": {
                           "duration": 1000
@@ -9807,8 +9773,7 @@
                           "position": "top-center",
                           "background-color": "",
                           "background-image": "",
-                          "top-padding": 0,
-                          "text": "COVID 19: Confirmed Cases"
+                          "top-padding": 0
                         },
                         "animation": {
                           "type":"typewritter",
@@ -9824,8 +9789,7 @@
                           "font-style": "italic",
                           "font-weight": "bold",
                           "font-size": 16,
-                          "position": "top-center",
-                          "text": "During March 2020, the number of confirmed cases reached its peak on March 19. Data source: WHO."
+                          "position": "top-center"
                         },
                         "animation": {
                           "duration": 1000
@@ -9974,8 +9938,7 @@
                           "position": "top-center",
                           "background-color": "",
                           "background-image": "",
-                          "top-padding": 0,
-                          "text": "Recovered Cases of COVID-19"
+                          "top-padding": 0
                         },
                         "animation": {
                           "type":"wipe",
@@ -9991,8 +9954,7 @@
                           "font-style": "",
                           "font-weight": "bold",
                           "font-size": 15,
-                          "position": "top-left",
-                          "text": "During March 2020, the number of recovered cases reached its peak on March 15. Data source: WHO."
+                          "position": "top-left"
                         },
                         "animation": {
                           "duration": 1000
@@ -10135,8 +10097,7 @@
                           "position": "top-center",
                           "background-color": "",
                           "background-image": "https://narchart.github.io/editor/background/line_banner2.png",
-                          "top-padding": 0,
-                          "text": "Recovered Cases of COVID-19"
+                          "top-padding": 0
                         },
                         "animation": {
                           "duration": 1000
@@ -10152,8 +10113,7 @@
                           "font-weight": "bold",
                           "font-size": 15,
                           "position": "top-center",
-                          "top-padding": 20,
-                          "text": "During March 2020, the number of recovered cases reached its peak on March 15. Data source: WHO."
+                          "top-padding": 20
                         },
                         "animation": {
                           "duration": 1000
@@ -10293,8 +10253,7 @@
                           "position": "top-center",
                           "background-color": "",
                           "background-image": "https://narchart.github.io/editor/background/line_banner3.png",
-                          "top-padding": 0,
-                          "text": "Recovered Cases of COVID-19"
+                          "top-padding": 0
                         }
                       },
                       {
@@ -10307,8 +10266,7 @@
                           "font-weight": "bold",
                           "font-size": 16,
                           "position": "top-center",
-                          "top-padding": 10,
-                          "text": "During March 2020, the number of recovered cases reached its peak on March 15. Data source: WHO."
+                          "top-padding": 10
                         }
                       },
                       {
@@ -10450,8 +10408,7 @@
                           "position": "top-center",
                           "background-color": "",
                           "background-image": "",
-                          "top-padding": 10,
-                          "text": "Recovered Cases of COVID-19"
+                          "top-padding": 10
                         },
                         "animation": {
                           "type":"wipe",
@@ -10467,8 +10424,7 @@
                           "font-style": "",
                           "font-weight": "bold",
                           "font-size": 15,
-                          "position": "top-center",
-                          "text": "During March 2020, the number of recovered cases showed an overall stable trend. Data source: WHO."
+                          "position": "top-center"
                         },
                         "animation": {
                           "type":"fade",
@@ -10607,8 +10563,7 @@
                           "position": "top-center",
                           "background-color": "",
                           "background-image": "",
-                          "top-padding": 10,
-                          "text": "The Deaths of COVID-19 in March 2020"
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -10623,8 +10578,7 @@
                           "font-style": "",
                           "font-weight": "bold",
                           "font-size": 15,
-                          "position": "top-right",
-                          "text": "Acorrding to the data from WHO, a growing number of people died of COVID-19 during this month worldwide. R.I.P."
+                          "position": "top-right"
                         },
                         "animation": {
                           "duration": 1000
@@ -10746,8 +10700,7 @@
                                 "font-style": "italic",
                                 "border-width": 2,
                                 "border-color": "orange",
-                                "background-color": "black",
-                                "text": "Global car sales by key brands, 2007-2011"
+                                "background-color": "black"
                             },
                             "animation": {
                                 "duration": 1000
@@ -10761,8 +10714,7 @@
                                 "font-size": 20,
                                 "font-weight": "bold",
                                 "font-color": "black",
-                                "position": "top-left",
-                                "text": "Ford has the highest proportion of sales among all the brands."
+                                "position": "top-left"
                             },
                             "animation": {
                                 "duration": 1000
@@ -10886,8 +10838,7 @@
                           "font-color": "#FCCF00",
                           "font-style": "italic",
                           "divide-line-width": 2,
-                          "divide-line-color": "#FCCF00",
-                          "text": "Global car sales by key brands, 2007-2011"
+                          "divide-line-color": "#FCCF00"
                         },
                         "animation": {
                           "type":"wipe",
@@ -10902,8 +10853,7 @@
                           "font-size": 20,
                           "font-weight": "regular",
                           "font-color": "white",
-                          "position": "top-left",
-                          "text": "Ford has the highest proportion of sales among all the brands."
+                          "position": "top-left"
                         },
                         "animation": {
                           "type":"wipe",
@@ -11117,8 +11067,7 @@
                           "font-size": 34,
                           "font-style": "italic",
                           "top-padding": 20,
-                          "background-color": "white",
-                          "text": "Global car sales by key brands, 2007-2011"
+                          "background-color": "white"
                         },
                         "animation": {
                           "duration": 1000
@@ -11133,8 +11082,7 @@
                           "font-weight": "bold",
                           "font-color": "black",
                           "position": "top-left",
-                          "top-padding": 20,
-                          "text": "Ford has the highest proportion of sales among all the brands."
+                          "top-padding": 20
                         },
                         "animation": {
                           "duration": 1000
@@ -11259,8 +11207,7 @@
                           "font-size": 34,
                           "font-style": "italic",
                           "top-padding": 20,
-                          "background-color": "antiquewhite",
-                          "text": "Global car sales by key brands, 2007-2011"
+                          "background-color": "antiquewhite"
                         },
                         "animation": {
                           "duration": 1000
@@ -11277,8 +11224,7 @@
                           "font-size": 18,
                           "font-style": "italic",
                           "top-padding": 20,
-                          "background-color": "antiquewhite",
-                          "text": "Ford has the highest proportion of sales among all the brands."
+                          "background-color": "antiquewhite"
                         },
                         "animation": {
                           "duration": 1000
@@ -11421,8 +11367,7 @@
                           "font-size": 34,
                           "font-style": "italic",
                           "divide-line-width": 3,
-                          "divide-line-color": "#1781b5",
-                          "text": "Global car sales by key brands, 2007-2011"
+                          "divide-line-color": "#1781b5"
                         },
                         "animation": {
                           "type":"wipe",
@@ -11440,8 +11385,7 @@
                           "font-size": 18,
                           "font-style": "italic",
                           "top-padding": 10,
-                          "background-color": "antiquewhite",
-                          "text": "Ford has the highest proportion of sales among all the brands."
+                          "background-color": "antiquewhite"
                         },
                         "animation": {
                           "type":"typewritter",
@@ -11590,8 +11534,7 @@
                                 "font-size": 34,
                                 "font-style": "italic",
                                 "divide-line-width": 3,
-                                "divide-line-color": "white",
-                                "text": "Global car sales by key brands, 2007-2011"
+                                "divide-line-color": "white"
                             },
                             "animation": {
                                 "duration": 1000
@@ -11606,8 +11549,7 @@
                                 "font-weight": "bold",
                                 "font-size": 20,
                                 "font-style": "italic",
-                                "top-padding": 20,
-                                "text": "3 brands accounted for about a half of all the sales."
+                                "top-padding": 20
                             },
                             "animation": {
                                 "duration": 1000
@@ -11818,8 +11760,7 @@
                                 "font-family": "Times",
                                 "font-weight": "bold",
                                 "font-size": 34,
-                                "font-style": "italic",
-                                "text": "Global car sales by key brands, 2007-2011"
+                                "font-style": "italic"
                             },
                             "animation": {
                                 "duration": 1000
@@ -11834,8 +11775,7 @@
                                 "font-weight": "bold",
                                 "font-size": 20,
                                 "font-style": "italic",
-                                "top-padding": 10,
-                                "text": "3 brands accounted for about a half of all the sales."
+                                "top-padding": 10
                             },
                             "animation": {
                                 "duration": 1000
@@ -12036,8 +11976,7 @@
                           "font-family": "Times",
                           "font-weight": "bold",
                           "font-size": 34,
-                          "font-style": "italic",
-                          "text": "Global car sales by key brands, 2007-2011"
+                          "font-style": "italic"
                         },
                         "animation": {
                           "type":"wipe",
@@ -12052,8 +11991,7 @@
                           "font-family": "Times",
                           "font-weight": "bold",
                           "font-size": 20,
-                          "font-style": "italic",
-                          "text": "Ford accounted for about 30% of all the sales."
+                          "font-style": "italic"
                         },
                         "animation": {
                           "type":"wipe",
@@ -12177,8 +12115,7 @@
                           "position": "top-center",
                           "font-family": "Comic Sans MS",
                           "font-weight": "bold",
-                          "font-size": 34,
-                          "text": "Car Sales Data! 😄"
+                          "font-size": 34
                         },
                         "animation": {
                           "duration": 1000
@@ -12192,8 +12129,7 @@
                           "font-size": 17,
                           "font-weight": "bold",
                           "font-color": "black",
-                          "position": "top-center",
-                          "text": "Do you know which 3 car brands are the most popular? Here is the data about global car sales by key brands, from 2007 to 2011"
+                          "position": "top-center"
                         },
                         "animation": {
                           "duration": 1000
@@ -12398,8 +12334,7 @@
                                 "font-color": "black",
                                 "font-size": 34,
                                 "font-style": "italic",
-                                "background-color": "white",
-                                "text": "Global car sales by key brands, 2007-2011"
+                                "background-color": "white"
                             },
                             "animation": {
                                 "duration": 1000
@@ -12414,8 +12349,7 @@
                                 "font-weight": "bold",
                                 "font-color": "black",
                                 "position": "top-left",
-                                "background-color": "white",
-                                "text": "3 brands accounted for about a half of all the sales."
+                                "background-color": "white"
                             },
                             "animation": {
                                 "duration": 1000
@@ -12652,8 +12586,7 @@
                           "background-color": "#FF7602",
                           "font-family": "Georgia",
                           "font-size": 40,
-                          "font-color": "white",
-                          "text": "Technical Specs of Cars"
+                          "font-color": "white"
                         },
                         "animation": {
                           "type":"wipe",
@@ -12665,8 +12598,7 @@
                         "text": "The most fuel-efficient car can run 4.6 miles on a gallon of gas in the 1980s. ",
                         "style": {
                           "position": "left",
-                          "top-padding": 5,
-                          "text": "The most fuel-efficient car can run 4.6 miles on a gallon of gas in the 1980s. "
+                          "top-padding": 5
                         },
                         "animation": {
                           "duration": 1000
@@ -12850,8 +12782,7 @@
                           "font-weight": "bold",
                           "font-size": 34,
                           "font-color": "yellow",
-                          "font-style": "italic",
-                          "text": "Technical Specs of Cars"
+                          "font-style": "italic"
                         },
                         "animation": {
                           "type":"wipe",
@@ -12867,8 +12798,7 @@
                           "font-weight": "regular",
                           "font-color": "#FFFFFF",
                           "position": "left",
-                          "top-padding": 0,
-                          "text": "The most fuel-efficient car can run 4.6 miles on a gallon of gas in the 1980s. Size encodes acceleration."
+                          "top-padding": 0
                         },
                         "animation": {
                           "duration": 1000
@@ -13054,8 +12984,7 @@
                           "font-color": "#15777C",
                           "font-style": "italic",
                           "border-width": 2,
-                          "border-color": "#15777C",
-                          "text": "Technical Specs of Cars in the 1980s"
+                          "border-color": "#15777C"
                         },
                         "animation": {
                           "type":"wipe",
@@ -13071,8 +13000,7 @@
                           "font-weight": "regular",
                           "font-color": "#364A45",
                           "position": "left",
-                          "top-padding": 0,
-                          "text": "Pontiac grand prix is the car that had the highest horsepower in the 1980s. Size encodes acceleration."
+                          "top-padding": 0
                         },
                         "animation": {
                           "duration": 1000
@@ -13253,8 +13181,7 @@
                           "font-color": "#FCCF00",
                           "font-style": "italic",
                           "divide-line-width": 2,
-                          "divide-line-color": "#FCCF00",
-                          "text": "Cars in the 1980s: MPG vs Horsepower"
+                          "divide-line-color": "#FCCF00"
                         },
                         "animation": {
                           "type":"typewritter",
@@ -13270,8 +13197,7 @@
                           "font-weight": "regular",
                           "font-color": "#FFFFFF",
                           "position": "top-center",
-                          "top-padding": 10,
-                          "text": "The relationship between horsepower and miles per gallon is negative. Size encodes acceleration. Source: 1983 American Statistical Association Exposition."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -13439,8 +13365,7 @@
                           "font-size": 24,
                           "font-color": "white",
                           "font-style": "italic",
-                          "background-color": "#FE268E",
-                          "text": "Cars in the 1980s: Weight vs Horsepower"
+                          "background-color": "#FE268E"
                         },
                         "animation": {
                           "type":"wipe",
@@ -13653,8 +13578,7 @@
                           "font-weight": "bold",
                           "font-size": 34,
                           "font-color": "#CE5456",
-                          "font-style": "italic",
-                          "text": "Cars in the 1980s: Weight vs Horsepower"
+                          "font-style": "italic"
                         },
                         "animation": {
                           "duration": 1000
@@ -13669,8 +13593,7 @@
                           "font-weight": "regular",
                           "font-color": "white",
                           "position": "top-center",
-                          "top-padding": 10,
-                          "text": "Among all the cars, buick estate wagon (sw) is a special one as it has a high horsepower while being lightweight."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -13864,8 +13787,7 @@
                           "font-size": 24,
                           "font-color": "black",
                           "border-width": 1,
-                          "border-color": "black",
-                          "text": "Association between car weight and horsepower"
+                          "border-color": "black"
                         },
                         "animation": {
                           "type":"wipe",
@@ -13880,8 +13802,7 @@
                           "font-size": 17,
                           "font-weight": "regular",
                           "font-color": "black",
-                          "position": "left",
-                          "text": "The relationship between car weight and horsepower is generally posotive. Data source: 1983 American Statistical Association Exposition."
+                          "position": "left"
                         },
                         "animation": {
                           "type":"wipe",
@@ -14186,8 +14107,7 @@
                           "font-family": "Gil Sans",
                           "font-weight": "bold",
                           "font-size": 24,
-                          "font-color": "black",
-                          "text": "Association between car weight and horsepower"
+                          "font-color": "black"
                         },
                         "animation": {
                           "type":"wipe",
@@ -14202,8 +14122,7 @@
                           "font-size": 17,
                           "font-weight": "regular",
                           "font-color": "black",
-                          "position": "left",
-                          "text": "Pontiac safari (sw) is the heaviest car before 1983. Data source: 1983 American Statistical Association Exposition."
+                          "position": "left"
                         },
                         "animation": {
                           "type":"wipe",
@@ -14376,8 +14295,7 @@
                           "font-color": "#FCCF00",
                           "font-style": "italic",
                           "divide-line-width": 2,
-                          "divide-line-color": "#FCCF00",
-                          "text": "Cars in the 1980s: Weight vs Horsepower"
+                          "divide-line-color": "#FCCF00"
                         },
                         "animation": {
                           "type":"typewritter",
@@ -14392,8 +14310,7 @@
                           "font-size": 16,
                           "font-weight": "regular",
                           "font-color": "white",
-                          "position": "top-left",
-                          "text": "Among all the cars, buick estate wagon (sw) is a special one as it had a high horsepower while being lightweight. Color encodes car origin."
+                          "position": "top-left"
                         },
                         "animation": {
                           "duration": 1000
@@ -14582,8 +14499,7 @@
                         "add": "title",
                         "text": "Horsepower of the cars in the 1980s",
                         "style": {
-                          "font-size": "22",
-                          "text": "Horsepower of the cars in the 1980s"
+                          "font-size": "22"
                         },
                         "animation": {
                           "type":"wipe",
@@ -14594,8 +14510,7 @@
                         "add": "caption",
                         "text": "The size of the dots encodes horsepower. Among all the cars that have a weight > 4000, pontiac grand prix has the highest horsepower.",
                         "style": {
-                          "font-size": "16",
-                          "text": "The size of the dots encodes horsepower. Among all the cars that have a weight > 4000, pontiac grand prix has the highest horsepower."
+                          "font-size": "16"
                         },
                         "animation": {
                           "type":"wipe",
@@ -14763,8 +14678,7 @@
                         "add": "title",
                         "text": "The trend of car production in the 1980s",
                         "style": {
-                          "font-color": "green",
-                          "text": "The trend of car production in the 1980s"
+                          "font-color": "green"
                         },
                         "animation": {
                           "duration": 1000
@@ -14774,8 +14688,7 @@
                         "add": "caption",
                         "text": "The car production is increasing over time. Data source: 1983 American Statistical Association Exposition.",
                         "style": {
-                          "font-color": "green",
-                          "text": "The car production is increasing over time. Data source: 1983 American Statistical Association Exposition."
+                          "font-color": "green"
                         },
                         "animation": {
                           "duration": 1000
@@ -14903,8 +14816,7 @@
                           "font-size": 30,
                           "font-family": "Georgia",
                           "background-color": "green",
-                          "top-padding": 10,
-                          "text": "Introducing Ford f250"
+                          "top-padding": 10
                         },
                         "animation": {
                           "type":"wipe",
@@ -14915,8 +14827,7 @@
                         "add": "caption",
                         "text": "Among all the cars produced in the 1980s, Ford f250 is very famous. Color: yellow - USA, green - Europe, orange - Japan.",
                         "style": {
-                          "background-color": "green",
-                          "text": "Among all the cars produced in the 1980s, Ford f250 is very famous. Color: yellow - USA, green - Europe, orange - Japan."
+                          "background-color": "green"
                         },
                         "animation": {
                           "duration": 1000
@@ -15097,8 +15008,7 @@
                           "font-weight": "bold",
                           "border-width": 3,
                           "position": "top-center",
-                          "top-padding": 10,
-                          "text": "Who Produced the Most Cars in the 1980s?"
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -15113,8 +15023,7 @@
                           "font-weight": "bold",
                           "font-size": 16,
                           "position": "top-center",
-                          "top-padding": 10,
-                          "text": "USA produced the most cars in the 1980s. Data source: 1983 American Statistical Association Exposition."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -15424,8 +15333,7 @@
                                 "border-color": "orange",
                                 "position": "top-center",
                                 "background-image": "https://narchart.github.io/editor/background/car_banner.png",
-                                "top-padding": 10,
-                                "text": "Who Produced the Most Cars?"
+                                "top-padding": 10
                             },
                             "animation": {
                                 "duration": 1000
@@ -15440,8 +15348,7 @@
                                 "font-weight": "bold",
                                 "font-size": 18,
                                 "position": "top-left",
-                                "top-padding": 15,
-                                "text": "According to the data analysis, USA produced the most cars in 1982. Data source: 1983 American Statistical Association Exposition."
+                                "top-padding": 15
                             },
                             "animation": {
                                 "duration": 1000
@@ -15823,8 +15730,7 @@
                           "border-color": "brown",
                           "position": "top-left",
                           "background-image": "",
-                          "top-padding": 10,
-                          "text": "Comparing the weight of the cars in the 1980s"
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -15839,8 +15745,7 @@
                           "font-weight": "bold",
                           "font-size": 18,
                           "position": "top-left",
-                          "top-padding": 10,
-                          "text": "The heaviest and the lightest cars were all produced in 1971. Data source: 1983 American Statistical Association Exposition."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
@@ -16057,9 +15962,6 @@
                             "stroke-width": 0.5,
                             "fill-opacity": 1
                           }
-                        },
-                        "style": {
-                          "background-color": ""
                         }
                       },
                       {
@@ -16075,8 +15977,7 @@
                           "position": "top-left",
                           "background-image": "",
                           "background-color": "white",
-                          "top-padding": 10,
-                          "text": "Who produced the lightest cars in the 1980s?"
+                          "top-padding": 10
                         },
                         "animation": {
                           "type":"wipe",
@@ -16092,8 +15993,7 @@
                           "font-weight": "regular",
                           "font-size": 18,
                           "position": "top-left",
-                          "top-padding": 20,
-                          "text": "Japan produced the lightest cars. Data source: 1983 American Statistical Association Exposition."
+                          "top-padding": 20
                         },
                         "animation": {
                           "type":"typewritter",
@@ -16283,8 +16183,7 @@
                           "background-color": "",
                           "divide-line-width": 5,
                           "divide-line-color": "peachpuff",
-                          "top-padding": 0,
-                          "text": "U.S. dominated the car market in the 1970s"
+                          "top-padding": 0
                         },
                         "animation": {
                           "type":"typewritter",
@@ -16300,8 +16199,7 @@
                           "font-weight": "regular",
                           "font-size": 18,
                           "position": "top-center",
-                          "top-padding": 10,
-                          "text": "Data source: 1983 American Statistical Association Exposition. The circle size encodes the average weight of the cars. U.S. cars are represented as icons."
+                          "top-padding": 10
                         },
                         "animation": {
                           "duration": 1000
